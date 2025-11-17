@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CT Midterm Revision Part 2 - Summary & Comparisons</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.2em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #ecf0f1;
+            border-right: 4px solid #3498db;
+            font-size: 1.6em;
+        }
+        
+        h3 {
+            color: #2980b9;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        h4 {
+            color: #16a085;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .summary-box {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-right: 4px solid #3498db;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .comparison-table th {
+            background: #3498db;
+            color: white;
+            padding: 15px;
+            text-align: right;
+            font-weight: bold;
+        }
+        
+        .comparison-table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .comparison-table tr:hover {
+            background: #e8f4f8;
+        }
+        
+        .term {
+            font-weight: bold;
+            color: #2980b9;
+        }
+        
+        .arabic-translation {
+            color: #27ae60;
+            font-style: italic;
+            margin-top: 8px;
+            padding-right: 15px;
+            border-right: 2px solid #27ae60;
+        }
+        
+        .key-point {
+            background: #fff3cd;
+            border-right: 3px solid #ffc107;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .example-box {
+            background: #e7f3ff;
+            border: 1px solid #b3d9ff;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        ul, ol {
+            margin-right: 25px;
+            margin-top: 10px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .formula {
+            background: #f0f0f0;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(to left, #3498db, transparent);
+            margin: 40px 0;
+        }
+        
+        .navigation {
+            background: #34495e;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0 20px;
+        }
+        
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            background: #3498db;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            border: 2px solid transparent;
+        }
+        
+        .nav-link:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .nav-link.active {
+            background: #27ae60;
+            border-color: #2ecc71;
+        }
+        
+        .nav-link.active:hover {
+            background: #229954;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <div class="nav-container">
+                <a href="CT_Revision_Summary.html" class="nav-link">Part 1 | الجزء الأول</a>
+                <a href="CT_Revision_Summary_Part2.html" class="nav-link active">Part 2 | الجزء الثاني</a>
+            </div>
+        </div>
+        
+        <h1>CT Midterm Revision Part 2 - Summary & Comparisons</h1>
+        <p style="text-align: center; color: #7f8c8d; margin-bottom: 30px;">الجزء الثاني - مراجعة شاملة مع ملخصات ومقارنات</p>
+
+        <!-- Section 1: DWDM Components -->
+        <h2>1. DWDM System Components | مكونات نظام DWDM</h2>
+        
+        <div class="summary-box">
+            <h3>DWDM Overview | نظرة عامة على DWDM</h3>
+            <p><span class="term">DWDM</span>: Dense Wavelength Division Multiplexing - Combines multiple wavelengths on single fiber.</p>
+            <p class="arabic-translation">DWDM: التعدد الكثيف بتقسيم الطول الموجي - يجمع أطوال موجية متعددة على ليف واحد</p>
+            
+            <h4>Operating Bands | النطاقات التشغيلية:</h4>
+            <ul>
+                <li><span class="term">C-band</span>: 1530-1565 nm | <span class="arabic-translation">النطاق C: 1530-1565 نانومتر</span></li>
+                <li><span class="term">L-band</span>: 1565-1625 nm | <span class="arabic-translation">النطاق L: 1565-1625 نانومتر</span></li>
+            </ul>
+        </div>
+
+        <h3>Comparison: DWDM Components | مقارنة: مكونات DWDM</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Component | المكون</th>
+                    <th>Function | الوظيفة</th>
+                    <th>Key Feature | الميزة الرئيسية</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Transponder</span></td>
+                    <td>Converts client signal to DWDM-compliant signal, can regenerate | يحول إشارة العميل إلى إشارة متوافقة مع DWDM، يمكن إعادة التوليد</td>
+                    <td>Signal conversion & regeneration | تحويل الإشارة وإعادة التوليد</td>
+                </tr>
+                <tr>
+                    <td><span class="term">OADM (Optical Add/Drop Multiplexer)</span></td>
+                    <td>Adds or removes specific wavelengths without disrupting entire signal | يضيف أو يحذف أطوال موجية محددة دون تعطيل الإشارة الكاملة</td>
+                    <td>Channel management | إدارة القنوات</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Isolator</span></td>
+                    <td>Allows light in one direction only | يسمح للضوء في اتجاه واحد فقط</td>
+                    <td>Protection from reflections | الحماية من الانعكاسات</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Circulator</span></td>
+                    <td>Directs light from any port to next port | يوجه الضوء من أي منفذ إلى المنفذ التالي</td>
+                    <td>Directional routing | التوجيه الاتجاهي</td>
+                </tr>
+                <tr>
+                    <td><span class="term">MUX (Multiplexer)</span></td>
+                    <td>Combines multiple optical signals into single beam | يجمع إشارات ضوئية متعددة في حزمة واحدة</td>
+                    <td>Signal combination | دمج الإشارات</td>
+                </tr>
+                <tr>
+                    <td><span class="term">DEMUX (De-multiplexer)</span></td>
+                    <td>Separates combined signals into individual wavelengths | يفصل الإشارات المجمعة إلى أطوال موجية فردية</td>
+                    <td>Signal separation | فصل الإشارات</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Optical Attenuator</span></td>
+                    <td>Controls power level of optical signal | يتحكم في مستوى قوة الإشارة الضوئية</td>
+                    <td>Power management | إدارة الطاقة</td>
+                </tr>
+                <tr>
+                    <td><span class="term">DCM (Dispersion Compensator Module)</span></td>
+                    <td>Compensates for chromatic dispersion | يعوض التشتت اللوني</td>
+                    <td>Signal quality improvement | تحسين جودة الإشارة</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">كل مكون له وظيفة محددة في نظام DWDM لإدارة الإشارات الضوئية</p>
+
+        <h3>Comparison: Isolator vs Circulator | مقارنة: العازل مقابل الدائري</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Aspect | الجانب</th>
+                    <th>Isolator | العازل</th>
+                    <th>Circulator | الدائري</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Direction | الاتجاه</strong></td>
+                    <td>One direction only | اتجاه واحد فقط</td>
+                    <td>Port to next port | من منفذ إلى المنفذ التالي</td>
+                </tr>
+                <tr>
+                    <td><strong>Ports | المنافذ</strong></td>
+                    <td>2 ports | منفذان</td>
+                    <td>Multiple ports | منافذ متعددة</td>
+                </tr>
+                <tr>
+                    <td><strong>Usage | الاستخدام</strong></td>
+                    <td>Front/end of amplifiers, laser modules | أمام/نهاية المضخمات، وحدات الليزر</td>
+                    <td>Routing applications | تطبيقات التوجيه</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">العازل يمنع الانعكاسات، الدائري يوجه الإشارات بين المنافذ</p>
+
+        <h3>Comparison: MUX vs DEMUX | مقارنة: المعدد مقابل إلغاء التعدد</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Aspect | الجانب</th>
+                    <th>MUX | المعدد</th>
+                    <th>DEMUX | إلغاء التعدد</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Function | الوظيفة</strong></td>
+                    <td>Combines multiple signals | يجمع إشارات متعددة</td>
+                    <td>Separates combined signals | يفصل الإشارات المجمعة</td>
+                </tr>
+                <tr>
+                    <td><strong>Location | الموقع</strong></td>
+                    <td>Transmitter side | جانب المرسل</td>
+                    <td>Receiver side | جانب المستقبل</td>
+                </tr>
+                <tr>
+                    <td><strong>Input/Output | المدخل/المخرج</strong></td>
+                    <td>Multiple inputs → Single output | مدخلات متعددة → مخرج واحد</td>
+                    <td>Single input → Multiple outputs | مدخل واحد → مخرجات متعددة</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">MUX يجمع الإشارات للإرسال، DEMUX يفصلها عند الاستقبال</p>
+
+        <div class="summary-box">
+            <h4>Variable Optical Attenuator (VOA) | المخفف الضوئي المتغير</h4>
+            <p><span class="term">VOA</span>: Allows adjustable attenuation levels (not fixed).</p>
+            <p class="arabic-translation">VOA: يسمح بمستويات تخفيف قابلة للضبط (غير ثابتة)</p>
+        </div>
+
+        <!-- Section 2: Optical Amplifiers -->
+        <div class="section-divider"></div>
+        <h2>2. Optical Amplifiers | المضخمات الضوئية</h2>
+        
+        <div class="summary-box">
+            <h3>Optical Amplifier Definition | تعريف المضخم الضوئي</h3>
+            <p><span class="term">Optical Amplifier</span>: Amplifies optical signal directly without converting to electrical signal.</p>
+            <p class="arabic-translation">المضخم الضوئي: يضخم الإشارة الضوئية مباشرة دون تحويلها إلى إشارة كهربائية</p>
+        </div>
+
+        <h3>Comparison: Optical Amplifier Types | مقارنة: أنواع المضخمات الضوئية</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Type | النوع</th>
+                    <th>Technology | التقنية</th>
+                    <th>Characteristics | الخصائص</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">EDFA (Erbium-Doped Fiber Amplifier)</span></td>
+                    <td>Fiber doped with erbium + pump laser | ليف مخلوط بالإربيوم + ليزر مضخة</td>
+                    <td>High gain, low noise, compatible with single-mode fibers | كسب عالي، ضوضاء منخفضة، متوافق مع الألياف أحادية النمط</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Raman Amplifier</span></td>
+                    <td>Nonlinear optical effects | تأثيرات ضوئية لاخطية</td>
+                    <td>Distributed amplification | التضخيم الموزع</td>
+                </tr>
+                <tr>
+                    <td><span class="term">SOA (Semiconductor Optical Amplifier)</span></td>
+                    <td>Semiconductor technology | تقنية أشباه الموصلات</td>
+                    <td>Compact, fast response | مضغوط، استجابة سريعة</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">EDFA الأكثر شيوعاً في أنظمة DWDM بسبب الأداء العالي</p>
+
+        <div class="summary-box">
+            <h4>EDFA Components | مكونات EDFA</h4>
+            <ul>
+                <li><span class="term">Pump Laser</span>: Excites erbium ions at 980 nm or 1480 nm | <span class="arabic-translation">ليزر المضخة: يثير أيونات الإربيوم عند 980 أو 1480 نانومتر</span></li>
+                <li><span class="term">Erbium-Doped Fiber</span>: Medium for amplification | <span class="arabic-translation">الليف المخلوط بالإربيوم: وسط التضخيم</span></li>
+                <li><span class="term">Isolator</span>: Placed at end to avoid reflections | <span class="arabic-translation">العازل: يوضع في النهاية لتجنب الانعكاسات</span></li>
+            </ul>
+            
+            <div class="key-point">
+                <strong>Important:</strong> Isolator prevents fiber from converting into a laser and avoids reflections.
+                <p class="arabic-translation">مهم: العازل يمنع تحول الليف إلى ليزر ويتجنب الانعكاسات</p>
+            </div>
+        </div>
+
+        <h3>Comparison: Optical Amplifiers vs Regenerators | مقارنة: المضخمات الضوئية مقابل المعيدات</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Aspect | الجانب</th>
+                    <th>Optical Amplifiers | المضخمات الضوئية</th>
+                    <th>Regenerators | المعيدات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Signal Processing | معالجة الإشارة</strong></td>
+                    <td>Amplifies directly in optical form | يضخم مباشرة في الشكل الضوئي</td>
+                    <td>O-E-O conversion (Optical-Electrical-Optical) | تحويل O-E-O</td>
+                </tr>
+                <tr>
+                    <td><strong>Noise Handling | التعامل مع الضوضاء</strong></td>
+                    <td>Amplifies signal and noise together | يضخم الإشارة والضوضاء معاً</td>
+                    <td>Removes noise, reshapes, retimes | يزيل الضوضاء، يعيد التشكيل، يعيد التوقيت</td>
+                </tr>
+                <tr>
+                    <td><strong>Output Quality | جودة المخرج</strong></td>
+                    <td>Amplified but not cleaned | مضخمة لكن غير نظيفة</td>
+                    <td>Clean, fully restored signal | إشارة نظيفة ومستعادة بالكامل</td>
+                </tr>
+                <tr>
+                    <td><strong>Cost & Complexity | التكلفة والتعقيد</strong></td>
+                    <td>Lower cost, simpler | تكلفة أقل، أبسط</td>
+                    <td>Higher cost, more complex | تكلفة أعلى، أكثر تعقيداً</td>
+                </tr>
+                <tr>
+                    <td><strong>Applications | التطبيقات</strong></td>
+                    <td>Long-haul, DWDM systems | المسافات الطويلة، أنظمة DWDM</td>
+                    <td>Ultra-long-haul, high-integrity systems | المسافات الطويلة جداً، أنظمة عالية النزاهة</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">المضخمات أبسط وأرخص لكن لا تنظف الإشارة، المعيدات تنظف الإشارة لكنها أكثر تكلفة</p>
+
+        <!-- Section 3: Dispersion Compensation -->
+        <div class="section-divider"></div>
+        <h2>3. Dispersion Compensation | تعويض التشتت</h2>
+        
+        <div class="summary-box">
+            <h3>DCM (Dispersion Compensator Module) | وحدة تعويض التشتت</h3>
+            <p><span class="term">DCM</span>: Compensates for chromatic dispersion in optical fibers.</p>
+            <p class="arabic-translation">DCM: يعوض التشتت اللوني في الألياف الضوئية</p>
+            
+            <h4>DCF (Dispersion Compensating Fiber) | ليف تعويض التشتت</h4>
+            <ul>
+                <li><span class="term">Negative Chromatic Dispersion</span>: Compresses the pulse | <span class="arabic-translation">تشتت لوني سالب: يضغط النبضة</span></li>
+                <li>Reverses effect of chromatic dispersion | <span class="arabic-translation">يعكس تأثير التشتت اللوني</span></li>
+            </ul>
+            
+            <div class="key-point">
+                <strong>Note:</strong> DCF has negative chromatic dispersion (not positive), which compresses the pulse to reverse dispersion effects.
+                <p class="arabic-translation">ملاحظة: DCF له تشتت لوني سالب (ليس موجب)، يضغط النبضة لعكس تأثيرات التشتت</p>
+            </div>
+        </div>
+
+        <!-- Section 4: Wavelength Converters -->
+        <div class="section-divider"></div>
+        <h2>4. Wavelength Converters | محولات الطول الموجي</h2>
+        
+        <h3>Comparison: Wavelength Conversion Methods | مقارنة: طرق تحويل الطول الموجي</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Method | الطريقة</th>
+                    <th>Process | العملية</th>
+                    <th>Characteristics | الخصائص</th>
+                    <th>Applications | التطبيقات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Opto-Electronic WC</span></td>
+                    <td>Optical → Electrical → Optical | ضوئي → كهربائي → ضوئي</td>
+                    <td>Involves electronic conversion, limited by electronic speed | يتضمن تحويل إلكتروني، محدود بسرعة الإلكترونيات</td>
+                    <td>Long-haul, metro networks needing regeneration | المسافات الطويلة، شبكات المترو التي تحتاج إعادة توليد</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Coherent Effects WC</span></td>
+                    <td>All-optical, nonlinear interactions | ضوئي كامل، تفاعلات لاخطية</td>
+                    <td>No electrical conversion | لا يوجد تحويل كهربائي</td>
+                    <td>DWDM, optical packet-switched networks | DWDM، شبكات تبديل الحزم الضوئية</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">التحويل الإلكتروني الضوئي يستخدم الإلكترونيات، التحويل بالتماسك ضوئي بالكامل</p>
+
+        <!-- Section 5: Optical Switches -->
+        <div class="section-divider"></div>
+        <h2>5. Optical Switches | المفاتيح الضوئية</h2>
+        
+        <div class="summary-box">
+            <h3>Optical Switch Function | وظيفة المفتاح الضوئي</h3>
+            <p><span class="term">Optical Switch</span>: Directs input optical signal to desired output port.</p>
+            <p class="arabic-translation">المفتاح الضوئي: يوجه الإشارة الضوئية المدخلة إلى منفذ المخرج المطلوب</p>
+            
+            <h4>Current Switching Type | نوع التبديل الحالي:</h4>
+            <p><span class="term">Circuit (Wavelength-Routed) Switching</span> - Currently employed in WDM networks.</p>
+            <p class="arabic-translation">تبديل الدائرة (المسار الموجي) - مستخدم حالياً في شبكات WDM</p>
+            
+            <div class="key-point">
+                <strong>Note:</strong> Packet switching in optical networks still faces many challenges.
+                <p class="arabic-translation">ملاحظة: تبديل الحزم في الشبكات الضوئية لا يزال يواجه تحديات كثيرة</p>
+            </div>
+        </div>
+
+        <!-- Section 6: Network Generations -->
+        <div class="section-divider"></div>
+        <h2>6. Network Generations | أجيال الشبكات</h2>
+        
+        <h3>Comparison: Network Generations | مقارنة: أجيال الشبكات</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Generation | الجيل</th>
+                    <th>Transmission Medium | وسط النقل</th>
+                    <th>Technology | التقنية</th>
+                    <th>Status | الحالة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">G1 (First Generation)</span></td>
+                    <td>Copper cables | الكابلات النحاسية</td>
+                    <td>Electronic | إلكتروني</td>
+                    <td>Historical | تاريخي</td>
+                </tr>
+                <tr>
+                    <td><span class="term">G2 (Second Generation)</span></td>
+                    <td>Optical fiber | الألياف الضوئية</td>
+                    <td>Point-to-point WDM | WDM نقطة لنقطة</td>
+                    <td>Deployed (early-mid 90s) | مستخدم (أوائل-منتصف التسعينات)</td>
+                </tr>
+                <tr>
+                    <td><span class="term">G3 (Third Generation)</span></td>
+                    <td>Optical fiber | الألياف الضوئية</td>
+                    <td>WDM with WADM, Crossconnects | WDM مع WADM، وصلات متقاطعة</td>
+                    <td>Currently deployed (WANs, MANs, LANs) | مستخدم حالياً</td>
+                </tr>
+                <tr>
+                    <td><span class="term">G4 (Fourth Generation)</span></td>
+                    <td>Optical fiber | الألياف الضوئية</td>
+                    <td>All-optical | ضوئي بالكامل</td>
+                    <td>Research laboratories | مختبرات البحث</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">G1 إلكتروني، G2 نقطة لنقطة، G3 مع WADM، G4 ضوئي بالكامل (بحث)</p>
+
+        <h3>Comparison: WDM Network Evolution | مقارنة: تطور شبكات WDM</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Generation | الجيل</th>
+                    <th>Features | الميزات</th>
+                    <th>Channel Count | عدد القنوات</th>
+                    <th>Purpose | الغرض</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">First Generation</span></td>
+                    <td>Point-to-point WDM | WDM نقطة لنقطة</td>
+                    <td>Up to 160 (max today), 320 in future | حتى 160 (الحد الأقصى اليوم)، 320 في المستقبل</td>
+                    <td>Upgrade transmission capacity | ترقية سعة النقل</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Second Generation</span></td>
+                    <td>Wavelength Add/Drop Multiplexers (WADM) | مقسمات إضافة/حذف الطول الموجي</td>
+                    <td>Similar to G1 | مشابه لـ G1</td>
+                    <td>Add/drop wavelengths at intermediate points | إضافة/حذف الأطوال الموجية عند نقاط وسيطة</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Third Generation</span></td>
+                    <td>Fiber and Wavelength Crossconnects | وصلات متقاطعة للألياف والأطوال الموجية</td>
+                    <td>Similar to G1 | مشابه لـ G1</td>
+                    <td>Interconnect multiwavelength fiber links | ربط روابط الألياف متعددة الأطوال الموجية</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">الجيل الأول نقطة لنقطة، الثاني مع WADM، الثالث مع وصلات متقاطعة</p>
+
+        <div class="summary-box">
+            <h4>WADM Components | مكونات WADM</h4>
+            <p>WADM consists of: <span class="term">DEMUX</span> → <span class="term">Switches</span> → <span class="term">MUX</span></p>
+            <p class="arabic-translation">WADM يتكون من: DEMUX → مفاتيح → MUX</p>
+            
+            <div class="key-point">
+                <strong>Limitation:</strong> WADM does not provide capability of interconnecting multiwavelength fiber links.
+                <p class="arabic-translation">القيود: WADM لا يوفر القدرة على ربط روابط الألياف متعددة الأطوال الموجية</p>
+            </div>
+        </div>
+
+        <!-- Section 7: Optical Interconnection Devices -->
+        <div class="section-divider"></div>
+        <h2>7. Optical Interconnection Devices | أجهزة الربط الضوئي</h2>
+        
+        <h3>Comparison: Passive Star vs Passive Router vs Active Switch | مقارنة: النجم السلبي مقابل الموجه السلبي مقابل المفتاح النشط</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Device | الجهاز</th>
+                    <th>Function | الوظيفة</th>
+                    <th>Routing Matrix | مصفوفة التوجيه</th>
+                    <th>Power Requirement | متطلب الطاقة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Passive Star</span></td>
+                    <td>Equally splits power among all output fibers | يقسم الطاقة بالتساوي بين جميع ألياف المخرج</td>
+                    <td>N/A | غير متاح</td>
+                    <td>No power | لا يحتاج طاقة</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Passive Router</span></td>
+                    <td>Routes based on wavelength using fixed pattern | يوجه بناءً على الطول الموجي بنمط ثابت</td>
+                    <td>Fixed (determined by internal connections) | ثابت (يحدده الاتصالات الداخلية)</td>
+                    <td>No power | لا يحتاج طاقة</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Active Switch (WRS)</span></td>
+                    <td>Reconfigurable routing, can direct same wavelength from different fibers | توجيه قابل لإعادة التكوين، يمكن توجيه نفس الطول الموجي من ألياف مختلفة</td>
+                    <td>Reconfigurable | قابل لإعادة التكوين</td>
+                    <td>Requires power | يحتاج طاقة</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">النجم السلبي يقسم فقط، الموجه السلبي نمط ثابت، المفتاح النشط قابل لإعادة التكوين</p>
+
+        <div class="summary-box">
+            <h4>Passive Router Details | تفاصيل الموجه السلبي</h4>
+            <ul>
+                <li><span class="term">Commercial Names</span>: WGRs, AWG, WRs, Latin routers | <span class="arabic-translation">الأسماء التجارية: WGRs، AWG، WRs، الموجهات اللاتينية</span></li>
+                <li><span class="term">Routing Matrix</span>: Determined by internal connections between DEMUX and MUX stages | <span class="arabic-translation">مصفوفة التوجيه: تحددها الاتصالات الداخلية بين مراحل DEMUX و MUX</span></li>
+                <li>Fixed connectivity pattern | <span class="arabic-translation">نمط اتصال ثابت</span></li>
+            </ul>
+            
+            <h4>Active Switch Details | تفاصيل المفتاح النشط</h4>
+            <ul>
+                <li><span class="term">Also Known As</span>: Wavelength-Routed Switch (WRS) | <span class="arabic-translation">معروف أيضاً باسم: مفتاح المسار الموجي</span></li>
+                <li>Can be blocking under some configurations | <span class="arabic-translation">يمكن أن يكون حاجزاً في بعض التكوينات</span></li>
+                <li>Wavelength converters can overcome blocking | <span class="arabic-translation">محولات الطول الموجي يمكنها التغلب على الحجب</span></li>
+                <li>Highly scalable, manages large number of connections dynamically | <span class="arabic-translation">قابل للتوسع بدرجة عالية، يدير عدداً كبيراً من الاتصالات ديناميكياً</span></li>
+                <li>Applications: Data centers, telecommunications, metro networks | <span class="arabic-translation">التطبيقات: مراكز البيانات، الاتصالات، شبكات المترو</span></li>
+            </ul>
+        </div>
+
+        <div class="key-point">
+            <strong>Collision in Passive Star:</strong> When two or more signals are launched on the same wavelength, a collision occurs.
+            <p class="arabic-translation">التصادم في النجم السلبي: عندما يتم إطلاق إشارتين أو أكثر على نفس الطول الموجي، يحدث تصادم</p>
+        </div>
+
+        <!-- Section 8: Wavelength Routing and Assignment -->
+        <div class="section-divider"></div>
+        <h2>8. Wavelength Routing and Assignment (WRA) | التوجيه وتعيين الطول الموجي</h2>
+        
+        <div class="summary-box">
+            <h3>WRA Problem | مشكلة WRA</h3>
+            <p><span class="term">WRA</span>: Involves computing routes and wavelengths for lightpaths.</p>
+            <p class="arabic-translation">WRA: يتضمن حساب المسارات والأطوال الموجية للمسارات الضوئية</p>
+            
+            <h4>Main Goal | الهدف الرئيسي:</h4>
+            <p>Maximize the number of lightpaths established | <span class="arabic-translation">تعظيم عدد المسارات الضوئية المنشأة</span></p>
+        </div>
+
+        <h3>Comparison: Routing Strategies | مقارنة: استراتيجيات التوجيه</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Strategy | الاستراتيجية</th>
+                    <th>Method | الطريقة</th>
+                    <th>Characteristics | الخصائص</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Fixed Routing</span></td>
+                    <td>Uses Dijkstra's algorithm for shortest path | يستخدم خوارزمية Dijkstra للمسار الأقصر</td>
+                    <td>Predetermined path | مسار محدد مسبقاً</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Fixed-Alternate Routing</span></td>
+                    <td>Uses predetermined set of alternate paths | يستخدم مجموعة محددة مسبقاً من المسارات البديلة</td>
+                    <td>Multiple path options | خيارات مسارات متعددة</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Adaptive Routing</span></td>
+                    <td>Adapts to network conditions, changes routes dynamically | يتكيف مع ظروف الشبكة، يغير المسارات ديناميكياً</td>
+                    <td>Dynamic route selection | اختيار مسار ديناميكي</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Fault-Tolerant Routing</span></td>
+                    <td>Handles network failures, reroutes traffic | يتعامل مع أعطال الشبكة، يعيد توجيه الحركة</td>
+                    <td>Resilient to failures | مقاوم للأعطال</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">التوجيه الثابت محدد مسبقاً، البديل له خيارات، التكيفي ديناميكي، المتسامح مع الأخطاء مقاوم</p>
+
+        <h3>Comparison: Wavelength Assignment Strategies | مقارنة: استراتيجيات تعيين الطول الموجي</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Strategy | الاستراتيجية</th>
+                    <th>Method | الطريقة</th>
+                    <th>Abbreviation | الاختصار</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">First-Fit</span></td>
+                    <td>Assigns first available wavelength | يعين أول طول موجي متاح</td>
+                    <td>FF</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Random</span></td>
+                    <td>Assigns wavelengths randomly | يعين الأطوال الموجية عشوائياً</td>
+                    <td>R</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Least-Used</span></td>
+                    <td>Assigns least-used wavelengths first | يعين الأطوال الموجية الأقل استخداماً أولاً</td>
+                    <td>LU</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Most-Used</span></td>
+                    <td>Assigns most-used wavelengths first | يعين الأطوال الموجية الأكثر استخداماً أولاً</td>
+                    <td>MU</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">FF أول متاح، R عشوائي، LU أقل استخداماً، MU أكثر استخداماً</p>
+
+        <div class="key-point">
+            <strong>Speed-Mismatch Problem:</strong> Has rendered WDM electronic switches into bottlenecks.
+            <p class="arabic-translation">مشكلة عدم تطابق السرعة: جعلت مفاتيح WDM الإلكترونية نقاط اختناق</p>
+        </div>
+
+        <!-- Section 9: Optical Circuit Switching -->
+        <div class="section-divider"></div>
+        <h2>9. Optical Circuit Switching (OCS) | تبديل الدائرة الضوئية</h2>
+        
+        <div class="summary-box">
+            <h3>OCS Definition | تعريف OCS</h3>
+            <p><span class="term">OCS</span>: Also known as Wavelength-Routed Networks.</p>
+            <p class="arabic-translation">OCS: معروف أيضاً باسم شبكات المسار الموجي</p>
+            
+            <h4>Key Concepts | المفاهيم الأساسية:</h4>
+            <ul>
+                <li><span class="term">Circuit</span>: Called <span class="term">lightpath</span> in optical networks | <span class="arabic-translation">الدائرة: تسمى المسار الضوئي في الشبكات الضوئية</span></li>
+                <li>Circuit established in set-up phase between sender and receiver | <span class="arabic-translation">الدائرة تُنشأ في مرحلة الإعداد بين المرسل والمستقبل</span></li>
+            </ul>
+        </div>
+
+        <!-- Section 10: Optical Packet Switching -->
+        <div class="section-divider"></div>
+        <h2>10. Optical Packet Switching (OPS) | تبديل الحزم الضوئية</h2>
+        
+        <div class="summary-box">
+            <h3>OPS Definition | تعريف OPS</h3>
+            <p><span class="term">OPS</span>: Processes packets (e.g., IP packets) in optical domain without conversion to electronic domain.</p>
+            <p class="arabic-translation">OPS: يعالج الحزم (مثل حزم IP) في المجال الضوئي دون تحويل إلى المجال الإلكتروني</p>
+            
+            <h4>Requirements | المتطلبات:</h4>
+            <p>Requires advances in <span class="term">optical memory and computing</span> (not electrical).</p>
+            <p class="arabic-translation">يتطلب تقدم في الذاكرة الضوئية والحوسبة (ليس الكهربائية)</p>
+        </div>
+
+        <h3>Comparison: Contention Resolution Methods | مقارنة: طرق حل التعارض</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Method | الطريقة</th>
+                    <th>Technology | التقنية</th>
+                    <th>Usage | الاستخدام</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Store-and-Forward</span></td>
+                    <td>Electrical buffers | مخازن مؤقتة كهربائية</td>
+                    <td>Electrical packet-switched networks | شبكات تبديل الحزم الكهربائية</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Fiber Delay Lines (FDL)</span></td>
+                    <td>Optical delay | تأخير ضوئي</td>
+                    <td>Optical packet switches | مفاتيح الحزم الضوئية</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Wavelength Converters (WC)</span></td>
+                    <td>Wavelength conversion | تحويل الطول الموجي</td>
+                    <td>Optical packet switches | مفاتيح الحزم الضوئية</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">Store-and-forward في الشبكات الكهربائية، FDL و WC في المفاتيح الضوئية</p>
+
+        <div class="summary-box">
+            <h4>Contention | التعارض</h4>
+            <p>Occurs when two or more packets try to leave on same output port, wavelength, and time.</p>
+            <p class="arabic-translation">يحدث عندما تحاول حزمتان أو أكثر المغادرة على نفس منفذ المخرج والطول الموجي والوقت</p>
+            
+            <h4>Challenges | التحديات:</h4>
+            <ul>
+                <li>Lack of optical RAM technology | <span class="arabic-translation">نقص تقنية الذاكرة الضوئية العشوائية</span></li>
+                <li>Lack of efficient logic devices for optical signal processing | <span class="arabic-translation">نقص أجهزة المنطق الفعالة لمعالجة الإشارات الضوئية</span></li>
+            </ul>
+            
+            <div class="key-point">
+                <strong>Status:</strong> OPS represents a long-term strategy for network evolution.
+                <p class="arabic-translation">الحالة: OPS يمثل استراتيجية طويلة المدى لتطور الشبكة</p>
+            </div>
+        </div>
+
+        <!-- Section 11: Optical Burst Switching -->
+        <div class="section-divider"></div>
+        <h2>11. Optical Burst Switching (OBS) | تبديل الدفقات الضوئية</h2>
+        
+        <div class="summary-box">
+            <h3>OBS Overview | نظرة عامة على OBS</h3>
+            <p><span class="term">OBS</span>: Compromise between OCS and OPS, avoids key shortcomings of both.</p>
+            <p class="arabic-translation">OBS: حل وسط بين OCS و OPS، يتجنب العيوب الرئيسية لكليهما</p>
+            
+            <h4>Key Idea | الفكرة الرئيسية:</h4>
+            <p>Direct bursts through optical network without passing through electronics for routing decisions.</p>
+            <p class="arabic-translation">توجيه الدفقات عبر الشبكة الضوئية دون المرور بالإلكترونيات لقرارات التوجيه</p>
+        </div>
+
+        <h3>Comparison: Burst Assembly Algorithms | مقارنة: خوارزميات تجميع الدفقات</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Algorithm | الخوارزمية</th>
+                    <th>Method | الطريقة</th>
+                    <th>Parameters | المعاملات</th>
+                    <th>Drawbacks | العيوب</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Timer-based</span></td>
+                    <td>Fixed time period | فترة زمنية ثابتة</td>
+                    <td>Timeout value | قيمة المهلة الزمنية</td>
+                    <td>Undesirable burst lengths if timeout too small | أطوال دفقات غير مرغوبة إذا كانت المهلة صغيرة جداً</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Threshold-based</span></td>
+                    <td>Number of packets or burst length | عدد الحزم أو طول الدفقة</td>
+                    <td>Threshold | العتبة</td>
+                    <td>May cause delay | قد يسبب تأخير</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Mixed Timer/Threshold</span></td>
+                    <td>Combines both parameters | يجمع كلا المعاملين</td>
+                    <td>Timer + Threshold | مؤقت + عتبة</td>
+                    <td>Increases operational complexity | يزيد التعقيد التشغيلي</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">المؤقت بفترة زمنية، العتبة بعدد الحزم، المختلط يجمع الاثنين</p>
+
+        <div class="summary-box">
+            <h4>Burst Assembly | تجميع الدفقات</h4>
+            <p>Procedure for aggregating data packets into bursts at edge of OBS network.</p>
+            <p class="arabic-translation">إجراء لتجميع حزم البيانات في دفقات عند حافة شبكة OBS</p>
+            
+            <div class="key-point">
+                <strong>Timer-based Considerations:</strong>
+                <ul>
+                    <li>Timeout too small → Too many small bursts, higher control overhead</li>
+                    <li>Timeout too large → Intolerable packet delay</li>
+                    <li>Must balance packet delay and control overhead</li>
+                </ul>
+                <p class="arabic-translation">اعتبارات المؤقت: المهلة صغيرة جداً → دفقات صغيرة كثيرة، المهلة كبيرة جداً → تأخير لا يطاق، يجب الموازنة بين التأخير والتحكم</p>
+            </div>
+        </div>
+
+        <h3>Comparison: OBS Signaling Protocols | مقارنة: بروتوكولات إشارات OBS</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Protocol | البروتوكول</th>
+                    <th>Method | الطريقة</th>
+                    <th>Characteristics | الخصائص</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">JET (Just Enough Time)</span></td>
+                    <td>Reserves resources just before burst arrives | يحجز الموارد قبل وصول الدفقة مباشرة</td>
+                    <td>Efficient resource usage | استخدام فعال للموارد</td>
+                </tr>
+                <tr>
+                    <td><span class="term">JIT (Just In Time)</span></td>
+                    <td>Reserves at arrival time | يحجز عند وقت الوصول</td>
+                    <td>Minimal reservation time | وقت حجز أدنى</td>
+                </tr>
+                <tr>
+                    <td><span class="term">TAW (Tell and Wait)</span></td>
+                    <td>Waits for confirmation at each hop before sending burst | ينتظر التأكيد عند كل قفزة قبل إرسال الدفقة</td>
+                    <td>Higher reliability, more delay | موثوقية أعلى، تأخير أكثر</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">JET يحجز قبل الوصول مباشرة، JIT عند الوصول، TAW ينتظر التأكيد</p>
+
+        <div class="summary-box">
+            <h4>Burst Scheduling | جدولة الدفقات</h4>
+            <ul>
+                <li><span class="term">Function</span>: Adjusts offset time for each burst, schedules bursts on output links | <span class="arabic-translation">الوظيفة: يضبط وقت الإزاحة لكل دفقة، يجدول الدفقات على روابط المخرج</span></li>
+                <li><span class="term">Scheduling Techniques</span>: First Fit (FF), Latest Available Unused Channel (LAUC) | <span class="arabic-translation">تقنيات الجدولة: أول مناسب، آخر قناة غير مستخدمة متاحة</span></li>
+            </ul>
+            
+            <h4>Signaling Protocol Function | وظيفة بروتوكول الإشارة</h4>
+            <p>Provisions services by establishing, deleting, and modifying switching paths.</p>
+            <p class="arabic-translation">يوفر الخدمات عن طريق إنشاء وحذف وتعديل مسارات التبديل</p>
+        </div>
+
+        <h3>Comparison: OCS vs OPS vs OBS | مقارنة: OCS مقابل OPS مقابل OBS</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Aspect | الجانب</th>
+                    <th>OCS | تبديل الدائرة</th>
+                    <th>OPS | تبديل الحزم</th>
+                    <th>OBS | تبديل الدفقات</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Granularity | الحبيبية</strong></td>
+                    <td>Wavelength | الطول الموجي</td>
+                    <td>Packet | الحزمة</td>
+                    <td>Burst | الدفقة</td>
+                </tr>
+                <tr>
+                    <td><strong>Setup | الإعداد</strong></td>
+                    <td>Circuit setup phase | مرحلة إعداد الدائرة</td>
+                    <td>No setup | لا يوجد إعداد</td>
+                    <td>Control packet | حزمة تحكم</td>
+                </tr>
+                <tr>
+                    <td><strong>Status | الحالة</strong></td>
+                    <td>Currently deployed | مستخدم حالياً</td>
+                    <td>Long-term strategy, research | استراتيجية طويلة المدى، بحث</td>
+                    <td>Compromise solution | حل وسط</td>
+                </tr>
+                <tr>
+                    <td><strong>Challenges | التحديات</strong></td>
+                    <td>Resource efficiency | كفاءة الموارد</td>
+                    <td>Optical RAM, processing | الذاكرة الضوئية، المعالجة</td>
+                    <td>Burst assembly, scheduling | تجميع الدفقات، الجدولة</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">OCS على مستوى الطول الموجي، OPS على مستوى الحزمة (بحث)، OBS على مستوى الدفقة (حل وسط)</p>
+
+        <!-- Section 12: Access Networks -->
+        <div class="section-divider"></div>
+        <h2>12. Access Networks | شبكات الوصول</h2>
+        
+        <div class="summary-box">
+            <h3>Access Network Definition | تعريف شبكة الوصول</h3>
+            <p><span class="term">Access Network</span>: Also known as "last-mile network", "first-mile network", "subscriber access network", or "local loop".</p>
+            <p class="arabic-translation">شبكة الوصول: معروفة أيضاً باسم "شبكة الميل الأخير"، "شبكة الميل الأول"، "شبكة وصول المشترك"، أو "الحلقة المحلية"</p>
+            
+            <h4>Function | الوظيفة:</h4>
+            <p>Connects Service Provider Central Offices (COs) to businesses and residential subscribers.</p>
+            <p class="arabic-translation">يربط مكاتب الخدمة المركزية (COs) بالشركات والمشتركين السكنيين</p>
+        </div>
+
+        <h3>Comparison: Traditional Access Technologies | مقارنة: تقنيات الوصول التقليدية</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Technology | التقنية</th>
+                    <th>Original Purpose | الغرض الأصلي</th>
+                    <th>Distance Limitation | قيود المسافة</th>
+                    <th>Limitations | القيود</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">DSL</span></td>
+                    <td>Carrying voice signals | نقل إشارات الصوت</td>
+                    <td>Less than 18,000 feet from CO | أقل من 18000 قدم من CO</td>
+                    <td>Signal distortions, not optimal for data | تشويه الإشارة، غير مثالي للبيانات</td>
+                </tr>
+                <tr>
+                    <td><span class="term">VDSL</span></td>
+                    <td>Very high bit-rate DSL | DSL بسرعة عالية جداً</td>
+                    <td>~1,500 feet (greater limitation) | ~1500 قدم (قيود أكبر)</td>
+                    <td>Up to 50 Mbps downstream | حتى 50 ميجابت/ثانية للتنزيل</td>
+                </tr>
+                <tr>
+                    <td><span class="term">CATV</span></td>
+                    <td>Delivering broadcast services (analog TV) | تقديم خدمات البث (التلفزيون التناظري)</td>
+                    <td>No specific distance limit | لا يوجد حد مسافة محدد</td>
+                    <td>Performance degrades under high load, not ideal for data | الأداء يتدهور تحت الحمل العالي، غير مثالي للبيانات</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">DSL للصوت مع قيود المسافة، VDSL أسرع لكن بقيود أكبر، CATV للبث مع مشاكل تحت الحمل العالي</p>
+
+        <div class="summary-box">
+            <h4>Subscriber Demands | متطلبات المشتركين</h4>
+            <ul>
+                <li>High bandwidth | <span class="arabic-translation">عرض نطاق عالي</span></li>
+                <li>Media-rich Internet services | <span class="arabic-translation">خدمات إنترنت غنية بالوسائط</span></li>
+                <li>Comparable prices | <span class="arabic-translation">أسعار قابلة للمقارنة</span></li>
+            </ul>
+            
+            <h4>Corporate Demands | متطلبات الشركات</h4>
+            <p>Connect Local Area Networks (LANs) to Internet backbone.</p>
+            <p class="arabic-translation">ربط شبكات المنطقة المحلية (LANs) بالعمود الفقري للإنترنت</p>
+            
+            <div class="key-point">
+                <strong>Bottleneck:</strong> Access network is identified as bottleneck for providing broadband services.
+                <p class="arabic-translation">نقطة الاختناق: شبكة الوصول معروفة كنقطة اختناق لتقديم خدمات النطاق العريض</p>
+            </div>
+        </div>
+
+        <!-- Section 13: PON and FTTx -->
+        <div class="section-divider"></div>
+        <h2>13. PON and FTTx | PON و FTTx</h2>
+        
+        <div class="summary-box">
+            <h3>PON Definition | تعريف PON</h3>
+            <p><span class="term">PON</span>: Passive Optical Network - Basis for next-generation access networks.</p>
+            <p class="arabic-translation">PON: الشبكة الضوئية السلبية - أساس شبكات الوصول للجيل القادم</p>
+            
+            <h4>FTTx Model | نموذج FTTx</h4>
+            <p>Offers unprecedented access bandwidth to end users.</p>
+            <p class="arabic-translation">يوفر عرض نطاق وصول غير مسبوق للمستخدمين النهائيين</p>
+            
+            <h4>FTTx Deployments | تطبيقات FTTx:</h4>
+            <ul>
+                <li><span class="term">FTTH</span>: Fiber-to-the-Home | <span class="arabic-translation">الألياف إلى المنزل</span></li>
+                <li><span class="term">FTTB</span>: Fiber-to-the-Building | <span class="arabic-translation">الألياف إلى المبنى</span></li>
+                <li><span class="term">FTTO</span>: Fiber-to-the-Office | <span class="arabic-translation">الألياف إلى المكتب</span></li>
+                <li><span class="term">FTTC</span>: Fiber-to-the-Curb | <span class="arabic-translation">الألياف إلى الرصيف</span></li>
+            </ul>
+        </div>
+
+        <h3>Comparison: FTTH Deployment Architectures | مقارنة: معماريات تطبيق FTTH</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Architecture | المعمارية</th>
+                    <th>Topology | الطوبولوجيا</th>
+                    <th>Transceivers Required | أجهزة الإرسال والاستقبال المطلوبة</th>
+                    <th>Fiber Length | طول الألياف</th>
+                    <th>Characteristics | الخصائص</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Point-to-Point (PtP)</span></td>
+                    <td>Dedicated fiber per subscriber | ليف مخصص لكل مشترك</td>
+                    <td>2N (N = subscribers) | 2N (N = المشتركين)</td>
+                    <td>N × L (L = distance) | N × L (L = المسافة)</td>
+                    <td>High bandwidth, dedicated connection | عرض نطاق عالي، اتصال مخصص</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Curb Switch</span></td>
+                    <td>Point-to-multipoint | نقطة إلى عدة نقاط</td>
+                    <td>2N + 2 | 2N + 2</td>
+                    <td>L km (to switch) | L كم (إلى المفتاح)</td>
+                    <td>Requires power at switch, reduces fiber from CO | يحتاج طاقة عند المفتاح، يقلل الألياف من CO</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Passive Optical Splitter (PON)</span></td>
+                    <td>Point-to-multipoint | نقطة إلى عدة نقاط</td>
+                    <td>N + 1 | N + 1</td>
+                    <td>L km (to splitter) | L كم (إلى المقسم)</td>
+                    <td>No power required, most cost-effective | لا يحتاج طاقة، الأكثر فعالية من حيث التكلفة</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">PtP مخصص لكن مكلف، Curb Switch يحتاج طاقة، PON الأكثر فعالية</p>
+
+        <div class="summary-box">
+            <h4>PON Characteristics | خصائص PON</h4>
+            <ul>
+                <li><span class="term">Type</span>: Point-to-multipoint (PtMP) network | <span class="arabic-translation">النوع: شبكة نقطة إلى عدة نقاط</span></li>
+                <li><span class="term">Minimizes</span>: Optical transceivers, CO terminations, fiber deployment | <span class="arabic-translation">يقلل: أجهزة الإرسال والاستقبال الضوئية، إنهاءات CO، نشر الألياف</span></li>
+                <li><span class="term">No Active Elements</span>: In signal path from source to destination | <span class="arabic-translation">لا توجد عناصر نشطة: في مسار الإشارة من المصدر إلى الوجهة</span></li>
+                <li><span class="term">Reach</span>: Up to 20 km | <span class="arabic-translation">المدى: حتى 20 كم</span></li>
+                <li><span class="term">Bandwidth</span>: Gbps solutions | <span class="arabic-translation">عرض النطاق: حلول جيجابت/ثانية</span></li>
+                <li><span class="term">Downstream</span>: Broadcast network | <span class="arabic-translation">الاتجاه الهابط: شبكة بث</span></li>
+            </ul>
+        </div>
+
+        <h3>Comparison: PON Components | مقارنة: مكونات PON</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Component | المكون</th>
+                    <th>Abbreviation | الاختصار</th>
+                    <th>Location | الموقع</th>
+                    <th>Function | الوظيفة</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Optical Line Terminal</span></td>
+                    <td>OLT</td>
+                    <td>Central Office (CO) | المكتب المركزي</td>
+                    <td>Connects access network to MAN/backbone | يربط شبكة الوصول بـ MAN/العمود الفقري</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Optical Network Unit</span></td>
+                    <td>ONU</td>
+                    <td>End-user (FTTH/FTTB) or Curb (FTTC) | المستخدم النهائي أو الرصيف</td>
+                    <td>Terminates optical signal at customer | ينهي الإشارة الضوئية عند العميل</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Optical Coupler</span></td>
+                    <td>-</td>
+                    <td>Between OLT and ONUs | بين OLT و ONUs</td>
+                    <td>Splits/combines optical signals (passive device) | يقسم/يجمع الإشارات الضوئية (جهاز سلبي)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">OLT في CO، ONU عند العميل، المقرن بينهما</p>
+
+        <div class="summary-box">
+            <h4>Optical Coupler Details | تفاصيل المقرن الضوئي</h4>
+            <ul>
+                <li><span class="term">Composition</span>: Two fibers fused together | <span class="arabic-translation">التركيب: ليفان منصهران معاً</span></li>
+                <li><span class="term">Function</span>: Splits signal from one fiber into several, combines signals from multiple fibers into one | <span class="arabic-translation">الوظيفة: يقسم الإشارة من ليف واحد إلى عدة ألياف، يجمع الإشارات من ألياف متعددة في واحد</span></li>
+                <li><span class="term">Power Distribution</span>: Signal power received on any input port is split between both output ports | <span class="arabic-translation">توزيع الطاقة: طاقة الإشارة المستقبلة على أي منفذ مدخل تُقسم بين منفذي المخرج</span></li>
+            </ul>
+        </div>
+
+        <h3>Comparison: PON Topologies | مقارنة: طوبولوجيات PON</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Topology | الطوبولوجيا</th>
+                    <th>Characteristics | الخصائص</th>
+                    <th>Failure Impact | تأثير الأعطال</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="term">Bus</span></td>
+                    <td>Linear connection | اتصال خطي</td>
+                    <td>Break in fiber affects all ONUs | كسر في الليف يؤثر على جميع ONUs</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Tree</span></td>
+                    <td>Hierarchical structure | هيكل هرمي</td>
+                    <td>Single point of failure at root (OLT) | نقطة فشل واحدة عند الجذر (OLT)</td>
+                </tr>
+                <tr>
+                    <td><span class="term">Ring</span></td>
+                    <td>Circular signal path | مسار إشارة دائري</td>
+                    <td>More resilient | أكثر مرونة</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="arabic-translation">الحافلة خطية مع تأثير الأعطال، الشجرة هرمية مع نقطة فشل، الحلقة دائرية وأكثر مرونة</p>
+
+        <div class="summary-box">
+            <h4>PON Transmission | نقل PON</h4>
+            <p>All transmissions occur between <span class="term">OLT</span> and <span class="term">ONUs</span> (not between ONUs).</p>
+            <p class="arabic-translation">جميع عمليات النقل تحدث بين OLT و ONUs (ليس بين ONUs)</p>
+        </div>
+
+        <!-- Final Summary Section -->
+        <div class="section-divider"></div>
+        <h2>14. Quick Reference Summary | ملخص سريع للمراجعة</h2>
+        
+        <div class="summary-box">
+            <h3>Key Formulas | الصيغ الرئيسية</h3>
+            <div class="formula">
+                PtP: Transceivers = 2N, Fiber = N × L
+            </div>
+            <p class="arabic-translation">PtP: أجهزة الإرسال والاستقبال = 2N، الألياف = N × L</p>
+            
+            <div class="formula">
+                Curb Switch: Transceivers = 2N + 2, Fiber = L
+            </div>
+            <p class="arabic-translation">مفتاح الرصيف: أجهزة الإرسال والاستقبال = 2N + 2، الألياف = L</p>
+            
+            <div class="formula">
+                PON: Transceivers = N + 1, Fiber = L
+            </div>
+            <p class="arabic-translation">PON: أجهزة الإرسال والاستقبال = N + 1، الألياف = L</p>
+        </div>
+
+        <h3>Important Distinctions | الفروقات المهمة</h3>
+        <div class="summary-box">
+            <ul>
+                <li><strong>MUX vs DEMUX:</strong> MUX combines (transmitter), DEMUX separates (receiver) | <span class="arabic-translation">MUX يجمع (المرسل)، DEMUX يفصل (المستقبل)</span></li>
+                <li><strong>Optical Amplifier vs Regenerator:</strong> Amplifier amplifies signal+noise, Regenerator cleans signal | <span class="arabic-translation">المضخم يضخم الإشارة+الضوضاء، المعيد ينظف الإشارة</span></li>
+                <li><strong>Passive vs Active:</strong> Passive no power, Active requires power | <span class="arabic-translation">السلبي لا يحتاج طاقة، النشط يحتاج طاقة</span></li>
+                <li><strong>OCS vs OPS vs OBS:</strong> OCS wavelength-level, OPS packet-level (research), OBS burst-level (compromise) | <span class="arabic-translation">OCS على مستوى الطول الموجي، OPS على مستوى الحزمة (بحث)، OBS على مستوى الدفقة (حل وسط)</span></li>
+                <li><strong>PtP vs PON:</strong> PtP dedicated but expensive, PON shared and cost-effective | <span class="arabic-translation">PtP مخصص لكن مكلف، PON مشترك وفعال من حيث التكلفة</span></li>
+                <li><strong>EDFA Pump Wavelengths:</strong> 980 nm or 1480 nm (not 850/1310/1550) | <span class="arabic-translation">أطوال موجية مضخة EDFA: 980 أو 1480 نانومتر (ليس 850/1310/1550)</span></li>
+                <li><strong>DCF Dispersion:</strong> Negative chromatic dispersion (compresses pulse) | <span class="arabic-translation">تشتت DCF: تشتت لوني سالب (يضغط النبضة)</span></li>
+            </ul>
+        </div>
+
+        <div class="summary-box">
+            <h3>Network Generation Summary | ملخص أجيال الشبكات</h3>
+            <ul>
+                <li><span class="term">G1</span>: Electronic, copper | <span class="arabic-translation">إلكتروني، نحاس</span></li>
+                <li><span class="term">G2</span>: Point-to-point WDM, deployed early-mid 90s | <span class="arabic-translation">WDM نقطة لنقطة، مستخدم أوائل-منتصف التسعينات</span></li>
+                <li><span class="term">G3</span>: WADM, Crossconnects, currently deployed | <span class="arabic-translation">WADM، وصلات متقاطعة، مستخدم حالياً</span></li>
+                <li><span class="term">G4</span>: All-optical, research labs | <span class="arabic-translation">ضوئي بالكامل، مختبرات البحث</span></li>
+            </ul>
+        </div>
+
+        <div class="summary-box">
+            <h3>Wavelength Assignment Strategies | استراتيجيات تعيين الطول الموجي</h3>
+            <ul>
+                <li><span class="term">FF</span>: First-Fit - first available | <span class="arabic-translation">أول مناسب - أول متاح</span></li>
+                <li><span class="term">R</span>: Random - random assignment | <span class="arabic-translation">عشوائي - تعيين عشوائي</span></li>
+                <li><span class="term">LU</span>: Least-Used - least-used first | <span class="arabic-translation">أقل استخداماً - الأقل استخداماً أولاً</span></li>
+                <li><span class="term">MU</span>: Most-Used - most-used first | <span class="arabic-translation">أكثر استخداماً - الأكثر استخداماً أولاً</span></li>
+            </ul>
+        </div>
+
+        <div style="text-align: center; margin-top: 50px; padding: 20px; background: #ecf0f1; border-radius: 5px;">
+            <p style="color: #7f8c8d; font-size: 0.9em;">End of Part 2 Revision Summary | نهاية ملخص مراجعة الجزء الثاني</p>
+            <p style="color: #7f8c8d; font-size: 0.9em;">Good Luck! | بالتوفيق!</p>
+        </div>
+    </div>
+</body>
+</html>

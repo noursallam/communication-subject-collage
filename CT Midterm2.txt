@@ -1,0 +1,1325 @@
+. What is the primary function of a transponder in a DWDM system? 
+o a) To amplify optical signals 
+o b) To convert the client signal into a DWDM-compliant optical signal 
+o c) To filter wavelengths 
+o d) To modulate light signals 
+2. Which wavelength is commonly used in multimode fiber systems for short-distance connections? 
+o a) 850 nm 
+o b) 1310 nm 
+o c) 1550 nm 
+o d) 1625 nm 
+1. A transponder in a DWDM system can regenerate the signal to improve quality for long-distance 
+transmission. True 
+2. The DWDM system operates in the S-band of the optical spectrum. False 
+o Correction: The DWDM system operates in the C-band (1530-1565 nm) and sometimes in 
+the L-band (1565-1625 nm) of the optical spectrum. 
+1. What is the function of an isolator in an optical system? 
+o a) To combine optical signals 
+o b) To allow light to pass in one direction but not in the opposite direction 
+o c) To split optical signals 
+o d) To amplify optical signals 
+2. Where are isolators commonly used? 
+o a) At the receiver end 
+o b) In multiplexers 
+o c) In the front and end of optical components such as amplifiers and laser diode modules 
+o d) In transponders 
+1. Isolators allow light to pass in both directions. False 
+o Correction: Isolators allow light to pass in one direction but not in the opposite direction. 
+31 | Page 
+2. Isolators are used in the front and end of optical components such as amplifiers and laser diode 
+modules. True 
+1. What is the function of a circulator in an optical system? 
+o a) To amplify optical signals 
+o b) To direct light entering at any particular port to exit at the next port 
+o c) To filter wavelengths 
+o d) To modulate light signals 
+2. Which component combines multiple optical signals into a single beam? 
+o a) Optical Multiplexer (MUX) 
+o b) Optical De-multiplexer (DEMUX) 
+o c) Optical Amplifier 
+o d) Optical Attenuator 
+1. A circulator directs light entering at any particular port to exit at the next port. True 
+2. An Optical De-multiplexer (DEMUX) combines multiple optical signals into a single beam. False 
+o Correction: An Optical Multiplexer (MUX) combines multiple optical signals into a single 
+beam. 
+1. What is the primary function of an Optical De-multiplexer (DEMUX)? 
+o a) To combine optical signals 
+o b) To separate combined optical signals into individual wavelengths 
+o c) To amplify optical signals 
+o d) To filter wavelengths 
+2. Which component is used to separate the combined optical signals at the receiver end? 
+o a) Optical Amplifier 
+o b) Optical De-multiplexer (DEMUX) 
+o c) Optical Attenuator 
+o d) Optical Isolator 
+1. An Optical De-multiplexer (DEMUX) separates combined optical signals into individual 
+wavelengths. True 
+32 | Page 
+2. An Optical Multiplexer (MUX) separates combined optical signals at the receiver end. False 
+o Correction: An Optical De-multiplexer (DEMUX) separates combined optical signals at the 
+receiver end. 
+1. What is the function of a transponder in a DWDM system? 
+o a) To amplify optical signals 
+o b) To convert the client signal into a DWDM-compliant optical signal 
+o c) To filter wavelengths 
+o d) To modulate light signals 
+2. What does DWDM stand for? 
+o a) Digital Wavelength Division Multiplexing 
+o b) Dense Wavelength Division Multiplexing 
+o c) Dynamic Wavelength Division Multiplexing 
+o d) Discrete Wavelength Division Multiplexin 
+1. A transponder in a DWDM system can regenerate the signal to improve quality for long-distance 
+transmission. True 
+1. What is the function of an Optical Add-Drop Multiplexer (OADM)? 
+o a) To amplify optical signals 
+o b) To add or remove specific wavelengths from the DWDM signal 
+o c) To filter wavelengths 
+o d) To modulate light signals 
+2. Why is an OADM useful in a DWDM system? 
+o a) It combines multiple optical signals into a single beam 
+o b) It routes specific channels to different destinations without disrupting the entire signal 
+o c) It amplifies the signal strength 
+o d) It converts electrical signals to optical signals 
+1. An Optical Add-Drop Multiplexer (OADM) adds or removes specific wavelengths from the 
+DWDM signal. True 
+33 | Page 
+2. An OADM disrupts the entire signal when routing specific channels to different destinations. False 
+o Correction: An OADM routes specific channels to different destinations without 
+disrupting the entire signal. 
+1. What is the primary function of an optical attenuator in a DWDM system? 
+o a) To amplify optical signals 
+o b) To control the power level of the optical signal 
+o c) To filter wavelengths 
+o d) To modulate light signals 
+2. What is a Variable Optical Attenuator (VOA) used for? 
+o a) To provide a fixed amount of attenuation 
+o b) To allow for adjustable attenuation levels 
+o c) To combine optical signals 
+o d) To split optical signals 
+An optical attenuator is used to control the power level of the optical signal in a DWDM system. True 
+1. A Variable Optical Attenuator (VOA) provides a fixed amount of attenuation. False 
+o Correction: A Variable Optical Attenuator (VOA) allows for adjustable attenuation levels. 
+1. What is the purpose of a Dispersion Compensation Module (DCM)? 
+o a) To amplify optical signals 
+o b) To compensate for chromatic dispersion in optical fibers 
+o c) To convert optical signals to electrical signals 
+o d) To filter wavelengths 
+2. What characteristic does Dispersion Compensating Fiber (DCF) have? 
+o a) Positive chromatic dispersion 
+o b) Negative chromatic dispersion 
+o c) Zero chromatic dispersion 
+o d) Variable chromatic dispersion 
+1. Chromatic dispersion causes signal degradation as it travels through the fiber. True 
+2. DCF has positive chromatic dispersion, which broadens the pulse. False 
+o Correction: DCF has negative chromatic dispersion, which compresses the pulse. 
+34 | Page 
+1. What is an optical amplifier? 
+o a) A device that converts optical signals to electrical signals 
+o b) A device that amplifies an optical signal directly without converting it to an electrical signal 
+o c) A device that filters optical signals 
+o d) A device that modulates optical signals 
+2. Which type of optical amplifier uses a fiber doped with erbium? 
+o a) Raman Amplifier 
+o b) Semiconductor Optical Amplifier (SOA) 
+o c) Erbium-Doped Fiber Amplifier (EDFA) 
+o d) Ytterbium-Doped Fiber Amplifier (YDFA) 
+1. An optical amplifier converts optical signals to electrical signals before amplifying them. False 
+o Correction: An optical amplifier amplifies an optical signal directly without converting it 
+to an electrical signal. 
+2. EDFAs are compatible with standard single-mode optical fibers. True 
+1. What is the role of the pump laser in an EDFA? 
+o a) To filter the signal 
+o b) To increase the signal strength by exciting erbium ions 
+o c) To convert the signal to an electrical signal 
+o d) To modulate the signal 
+2. At what wavelengths is the fiber in an EDFA typically pumped? 
+o a) 850 nm and 1310 nm 
+o b) 980 nm and 1480 nm 
+o c) 1550 nm and 1625 nm 
+o d) 1000 nm and 2000 nm 
+1. The pump laser in an EDFA excites erbium ions to release additional photons at the same 
+wavelength. True 
+2. An isolator is placed at the end of an EDFA to avoid reflections. True 
+35 | Page 
+1. What is the purpose of Dispersion Compensating Fiber (DCF)? 
+o A) To amplify optical signals. 
+o B) To reverse the effect of chromatic dispersion. 
+o C) To convert optical signals to electrical signals. 
+o D) To increase the bandwidth of the fiber. 
+2. Which type of optical amplifier uses erbium-doped fiber and a pump laser? 
+o A) Raman Amplifier 
+o B) Erbium-Doped Fiber Amplifier (EDFA) 
+o C) Semiconductor Optical Amplifier (SOA) 
+o D) Dispersion Compensating Fiber (DCF) 
+3. What is a characteristic of Erbium-Doped Fiber Amplifiers (EDFAs)? 
+o A) High noise with low gain. 
+o B) High gain with low noise. 
+o C) Incompatible with standard single-mode optical fibers. 
+o D) Used only for short-distance communication. 
+1. Dispersion Compensating Fiber (DCF) has positive chromatic dispersion.  
+o False. DCF has negative chromatic dispersion. 
+1. What is the function of a pump laser in an EDFA? 
+o A) To convert optical signals to electrical signals. 
+o B) To increase the signal strength by exciting erbium ions. 
+o C) To decrease the noise in the signal. 
+o D) To isolate the signal from reflections. 
+2. What is the purpose of an isolator in an EDFA? 
+o A) To amplify the signal. 
+o B) To avoid reflections and prevent the fiber from converting into a laser. 
+o C) To convert the signal to electrical form. 
+o D) To increase the bandwidth. 
+36 | Page 
+1. EDFAs use a fiber doped with erbium and a pump laser to increase signal strength. 
+o True 
+2. The pump laser in an EDFA operates at 850 nm and 1310 nm. 
+o False. The pump laser operates at 980 nm or 1480 nm. 
+3. An isolator is placed at the end of an EDFA to amplify the signal. 
+False. An isolator is placed to avoid reflections and prevent the fiber from converting into a laser. 
+1. What is the main difference between Optical Amplifiers and Regenerators? 
+o A) Optical Amplifiers convert signals to electrical form. 
+o B) Regenerators amplify signals directly in optical form. 
+o C) Optical Amplifiers amplify signals directly in optical form. 
+o D) Regenerators do not clean the signal. 
+2. Which of the following is a feature of Optical Amplifiers? 
+o A) Removes noise, reshapes, and retimes signal. 
+o B) Amplifies signal and noise together. 
+o C) Provides a clean, fully restored signal. 
+o D) Higher cost and complexity due to O-E-O conversion. 
+3. What is the typical application of Regenerators? 
+o A) Long-haul, DWDM systems. 
+o B) Ultra-long-haul, high-integrity systems. 
+o C) Short-distance communication. 
+o D) Local area networks. 
+1. Optical Amplifiers convert signals to electrical form. 
+o False. Optical Amplifiers amplify signals directly in optical form. 
+1. Regenerators provide a clean, fully restored signal.           True 
+2. Optical Amplifiers are used in ultra-long-haul, high-integrity systems. 
+o False. Optical Amplifiers are used in long-haul, DWDM systems. 
+37 | Page 
+1. What does WC stand for in the context of optical communication? 
+o A) Wave Conversion 
+o B) Wavelength Converters 
+o C) Waveform Control 
+o D) Wavelength Control 
+2. Which technology involves converting an optical signal to an electrical signal and then back 
+to an optical signal? 
+o A) Coherent Wavelength Conversion 
+o B) Opto-Electronic Wavelength Conversion 
+o C) Optical Amplification 
+o D) Optical Switching 
+3. What is a characteristic of Wavelength Conversion Using Coherent Effects? 
+o A) Requires photodetectors and lasers. 
+o B) Relies on nonlinear optical effects. 
+o C) Involves electronic components. 
+o D) Limited by electronic speed. 
+1. Opto-Electronic Wavelength Conversion involves all-optical, nonlinear interactions. 
+o False. Opto-Electronic Wavelength Conversion involves converting optical signals to 
+electrical signals and back to optical. 
+2. Wavelength Conversion Using Coherent Effects does not involve electrical conversion. 
+o True 
+3. Opto-Electronic Wavelength Conversion is typically used in DWDM, optical packet-switched 
+networks. 
+o False. Opto-Electronic Wavelength Conversion is used in long-haul, metro networks 
+needing regeneration. 
+1. What is the function of an optical switch? 
+o A) Directs an input optical signal to the desired output port. 
+o B) Converts optical signals to electrical signals. 
+o C) Amplifies optical signals. 
+o D) Regenerates optical signals. 
+38 | Page 
+2. Which type of switching is currently employed in WDM optical networks? 
+o A) Packet switching 
+o B) Circuit (wavelength-routed) switching 
+o C) Time-division switching 
+o D) Frequency-division switching 
+3. What is a challenge faced by packet switching in optical networks? 
+o A) High cost 
+o B) Complexity of implementation 
+o C) Many challenges still exist 
+o D) Limited speed 
+1. An optical switch converts optical signals to electrical signals. 
+o False. An optical switch directs an input optical signal to the desired output port. 
+2. Circuit switching is currently employed in WDM optical networks.    
+o True 
+3. Packet switching in optical networks faces no challenges. 
+o False. Packet switching is still facing many challenges. 
+1. What is the transmission medium for the first generation (G1) electronic network? 
+o A) Copper cables 
+o B) Optical fiber 
+o C) Wireless 
+o D) Satellite 
+2. Which network generation is currently deployed in backbone networks (WANs), MANs, and 
+LANs? 
+o A) G1 
+o B) G2 
+o C) G3 
+o D) G4 
+39 | Page 
+3. What technology is used in G4 optical networks? 
+o A) Electronic 
+o B) Hybrid 
+o C) Optical 
+o D) Wireless 
+1. G2 networks use optical fiber as the transmission medium.           True 
+2. G3 networks are still in research laboratories. 
+o False. G3 networks are currently deployed in backbone networks (WANs), MANs, and LANs. 
+3. G1 networks use WDM technology. 
+o False. G1 networks use electronic transmission technology. 
+1. What is the main challenge for all-optical networks? 
+o A) High cost 
+o B) Fiber/Processor Bottlenecks 
+o C) Limited bandwidth 
+o D) Incompatibility with existing systems 
+2. Which generation of WDM networks includes Wavelength Add/Drop Multiplexers 
+(WADM)? 
+o A) First generation 
+o B) Second generation 
+o C) Third generation 
+o D) Fourth generation 
+3. What is the maximum channel count for point-to-point WDM systems today? 
+o A) 64 
+o B) 128 
+o C) 160 
+o D) 320 
+1. All-optical networks are currently in research laboratories. 
+o True 
+40 | Page 
+2. Point-to-point WDM systems were first deployed in the early to mid-90s. 
+o True 
+3. The maximum channel count for point-to-point WDM systems is 64. 
+o False. The maximum channel count today is 160. 
+1. What is the primary benefit of point-to-point WDM systems? 
+o A) Reduces the cost of optical fibers. 
+o B) Upgrades the transmission capacity of communication links. 
+o C) Converts optical signals to electrical signals. 
+o D) Increases the bandwidth of electronic networks. 
+2. Which of the following is a feature of the first generation of WDM networks? 
+o A) Uses Wavelength Add/Drop Multiplexers (WADM). 
+o B) Deployed as a cost-effective means to upgrade transmission capacity. 
+o C) Includes Fiber and Wavelength Crossconnects. 
+o D) Operates in research laboratories. 
+3. What is the common channel count for WDM point-to-point systems today? 
+o A) 32 
+o B) 64 
+o C) 128 
+o D) 256 
+1. The first generation of WDM networks was deployed in the early to mid-90s. 
+o True 
+2. WDM point-to-point systems have a maximum channel count of 64 today. 
+o False. The maximum channel count today is 160. 
+3. The number of channels in WDM point-to-point systems will reach 320 in the near future. 
+o True 
+1. What is the main purpose of Wavelength Add/Drop Multiplexers (WADM) in WDM 
+networks? 
+o A) To amplify optical signals. 
+41 | Page 
+o B) To add or drop specific wavelengths from the optical signal. 
+o C) To convert optical signals to electrical signals. 
+o D) To increase the bandwidth of the fiber. 
+2. Which type of WDM network includes Fiber and Wavelength Crossconnects? 
+o A) First generation 
+o B) Second generation 
+o C) Third generation 
+o D) Fourth generation 
+1. Wavelength Add/Drop Multiplexers (WADM) are part of the first generation of WDM 
+networks. 
+o False. Wavelength Add/Drop Multiplexers (WADM) are part of the second generation of 
+WDM networks. 
+2. Fiber and Wavelength Crossconnects are used in the third generation of WDM networks. 
+o True 
+1. What is the main challenge addressed by all-optical networks? 
+o A) High cost of implementation 
+o B) Fiber capacity increase outstripping electronic switching capacity 
+o C) Limited availability of optical fibers 
+o D) Compatibility with existing electronic networks 
+2. Which of the following is a feature of the third generation of WDM networks? 
+o A) Uses single wavelength optical transmission 
+o B) Deployed in research laboratories 
+o C) Includes Fiber and Wavelength Crossconnects 
+o D) Limited to small-scale optical systems 
+1. All-optical networks are currently deployed in backbone networks. 
+o False. All-optical networks are in research laboratories. 
+2. The second generation of WDM networks includes Wavelength Add/Drop Multiplexers 
+(WADM).          True 
+42 | Page 
+1. What components make up a Wavelength Add/Drop Multiplexer (WADM)? 
+o A) DEMUX and amplifier 
+o B) DEMUX, switches, and MUX 
+o C) MUX and splitter 
+o D) Amplifier and splitter 
+2. What is the primary function of a WADM in WDM transmission links? 
+o A) To amplify optical signals 
+o B) To add or drop data streams at intermediate points 
+o C) To convert optical signals to electrical signals 
+o D) To increase the bandwidth of the fiber 
+3. What limitation does a WADM have despite increasing the flexibility of point-to-point WDM 
+systems? 
+o A) High cost 
+o B) Does not provide the capability of interconnecting multiwavelength fiber links 
+o C) Limited bandwidth                        D) Complex installation 
+1. A WADM consists of a DEMUX, followed by a set of switches, and then a MUX. 
+o True 
+2. WADMs provide the capability of interconnecting a set of multiwavelength fiber links. 
+o False. WADMs do not provide the capability of interconnecting a set of multiwavelength 
+fiber links. 
+3. The introduction of WADMs marked the birth of the third generation of WDM systems. 
+o False. The evolution of optical interconnection devices marked the birth of the third 
+generation of WDM systems. 
+1. What is the basic functionality of a passive star in WDM networks? 
+o A) To amplify optical signals 
+o B) To equally split the power of an input signal among all output fibers 
+o C) To convert optical signals to electrical signals 
+o D) To increase the bandwidth of the fiber 
+43 | Page 
+2. What happens when two or more signals are launched into a passive star on the same 
+wavelength? 
+o A) The signals are amplified 
+o B) A collision occurs 
+o C) The signals are converted to electrical signals 
+o D) The signals are dropped 
+3. What is the connectivity pattern between wavelengths on input fibers and output fibers in a 
+passive router defined by? 
+o A) The amplifier 
+o B) The routing matrix 
+o C) The splitter 
+o D) The MUX 
+1. A passive star splits the power of an input signal equally among all output fibers. 
+o True 
+2. In a passive star, a collision occurs when two or more signals are launched on the same 
+wavelength.            True 
+3. The connectivity pattern in a passive router is determined by the amplifier. 
+o False. The connectivity pattern is determined by the routing matrix. 
+1. What is the primary function of a passive router in WDM networks? 
+o A) To amplify optical signals 
+o B) To manage the routing of optical signals using predetermined paths 
+o C) To convert optical signals to electrical signals 
+o D) To increase the bandwidth of the fiber 
+2. What determines the connectivity pattern in a passive router? 
+o A) The amplifier 
+o B) The routing matrix 
+o C) The splitter 
+o D) The MUX 
+44 | Page 
+1. Passive routers can combine or split signals based on specific wavelengths without any active 
+signal processing. 
+o True 
+2. The routing matrix in a passive router is determined by the external connections between the 
+DEMUX and MUX stages. 
+o False. The routing matrix is determined by the internal connections between the DEMUX 
+and MUX stages. 
+1. What are some commercial names for passive routers? 
+o A) Optical amplifiers and splitters 
+o B) Waveguide grating routers (WGRs), arrayed waveguide grating (AWG), 
+wavelength routers (WRs), and Latin routers 
+o C) Optical switches and converters 
+o D) Fiber amplifiers and multiplexers 
+2. What is a key feature of passive routers in WDM networks? 
+o A) They amplify signals 
+o B) They have a fixed connectivity pattern defined by the routing matrix 
+o C) They convert optical signals to electrical signals 
+o D) They increase the bandwidth of the fiber 
+1. Passive routers are also known as waveguide grating routers (WGRs) and arrayed 
+waveguide grating (AWG). 
+o True 
+2. The connectivity pattern in passive routers is dynamic and changes based on the input signal. 
+o False. The connectivity pattern is fixed and defined by the routing matrix. 
+1. What is a common name for active switches in WDM networks? 
+o A) Passive router 
+o B) Wavelength-routed switch (WRS) 
+o C) Passive star 
+o D) Optical amplifier 
+45 | Page 
+2. What is a key difference between active switches and passive routers? 
+o A) Active switches have a fixed routing matrix 
+o B) Active switches have a reconfigurable routing matrix 
+o C) Passive routers require external power 
+o D) Passive routers perform signal processing 
+1. Active switches can be reconfigured to direct the same wavelength from different fibers to 
+any of the output fibers. 
+o True 
+2. Passive routers have a reconfigurable routing matrix. 
+o False. Passive routers have a fixed routing matrix. 
+1. What is a limitation of active switches that can be overcome by employing wavelength 
+converters? 
+o A) High cost 
+o B) Blocking under some configurations 
+o C) Limited bandwidth 
+o D) Complex installation 
+2. Which feature is associated with passive stars in WDM networks? 
+o A) Does not require power 
+o B) Performs signal processing 
+o C) Dynamic configuration 
+o D) High installation cost 
+1. Active switches can be blocking under some configurations. 
+o True 
+2. Passive stars perform signal processing and amplification. 
+o False. Passive stars do not perform signal processing; they simply split signals. 
+1. Which type of optical interconnection device is highly scalable and can manage a larger 
+number of connections dynamically? 
+o A) Passive star 
+46 | Page 
+o B) Passive router 
+o C) Active switch 
+o D) Optical amplifier 
+2. What is a key application of active switches in WDM networks? 
+o A) Fiber-to-the-home (FTTH) 
+o B) Local area networks 
+o C) Data centers, telecommunications, and metro networks 
+o D) Fixed routing applications 
+1. Active switches require external power and perform signal processing. 
+o True 
+2. Passive routers are highly scalable and can manage a larger number of connections 
+dynamically. 
+o False. Passive routers have limited scalability and are designed for specific routing needs. 
+1. What is another name for Optical Circuit Switching (OCS) Networks? 
+o A) Packet Switching Networks 
+o B) Wavelength-Routed Networks 
+o C) Time-Division Multiplexing Networks 
+o D) Frequency-Division Multiplexing Networks 
+2. In optical networks, what is the circuit commonly called? 
+o A) Pathway 
+o B) Lightpath 
+o C) Fiber route 
+o D) Optical link 
+1. In Optical Circuit Switching Networks, a circuit is established in a set-up phase between the 
+sender and the receiver. 
+o True 
+2. In optical networks, the circuit is commonly called a fiber route. 
+o False. The circuit is commonly called a lightpath. 
+47 | Page 
+1. What is the main goal when solving the wavelength routing and assignment problem (WRA)? 
+o A) To minimize the cost of the network 
+o B) To maximize the number of lightpaths established 
+o C) To reduce the power consumption 
+o D) To increase the bandwidth 
+2. Which routing strategy uses Dijkstra's algorithm to find the shortest path? 
+o A) Adaptive Routing 
+o B) Fixed Routing 
+o C) Fixed-Alternate Routing 
+o D) Fault-Tolerant Routing 
+o The wavelength routing and assignment problem (WRA) involves computing the routes and 
+wavelengths for lightpaths.   True 
+2. Fixed-Alternate Routing is a strategy that uses Dijkstra's algorithm to find the shortest path. 
+o False. Fixed Routing uses Dijkstra's algorithm to find the shortest path. 
+1. Which wavelength assignment strategy assigns wavelengths randomly? 
+o A) First-Fit (FF) 
+o B) Random Wavelength Assignment (R) 
+o C) Least-Used (LU) 
+o D) Most-Used (MU) 
+2. What problem has rendered WDM electronic switches into bottlenecks? 
+o A) High cost 
+o B) Speed-Mismatch Problem 
+o C) Limited bandwidth 
+o D) Complex installation 
+1. The First-Fit (FF) strategy assigns wavelengths randomly. 
+o False. The Random Wavelength Assignment (R) strategy assigns wavelengths randomly. 
+2. The speed-mismatch problem has rendered WDM electronic switches into bottlenecks. 
+o True 
+48 | Page 
+1. Which routing strategy adapts to network conditions and changes routes dynamically? 
+o A) Fixed Routing 
+o B) Fixed-Alternate Routing 
+o C) Adaptive Routing 
+o D) Fault-Tolerant Routing 
+2.  What is the primary goal of the wavelength routing and assignment problem (WRA)? 
+o A) To minimize the cost of the network 
+o B) To maximize the number of lightpaths established 
+o C) To reduce the power consumption 
+o D) To increase the bandwidth 
+1. Adaptive Routing changes routes dynamically based on network conditions. 
+o True 
+2. The primary goal of the wavelength routing and assignment problem (WRA) is to minimize 
+the cost of the network. 
+o False. The primary goal is to maximize the number of lightpaths established. 
+1. Which wavelength assignment strategy assigns the least-used wavelengths first? 
+o A) First-Fit (FF) 
+o B) Random Wavelength Assignment (R) 
+o C) Least-Used (LU) 
+o D) Most-Used (MU) 
+2. What problem has rendered WDM electronic switches into bottlenecks? 
+o A) High cost 
+o B) Speed-Mismatch Problem 
+o C) Limited bandwidth 
+o D) Complex installation 
+1. The Least-Used (LU) strategy assigns the least-used wavelengths first.          True 
+2. The speed-mismatch problem has rendered WDM electronic switches into bottlenecks. 
+o True 
+49 | Page 
+1. Which routing strategy is designed to handle network failures and reroute traffic accordingly? 
+o A) Fixed Routing 
+o B) Fixed-Alternate Routing 
+o C) Adaptive Routing 
+o D) Fault-Tolerant Routing 
+2. Which wavelength assignment strategy assigns the most-used wavelengths first? 
+o A) First-Fit (FF) 
+o B) Random Wavelength Assignment (R) 
+o C) Least-Used (LU) 
+o D) Most-Used (MU) 
+1. Fault-Tolerant Routing is designed to handle network failures and reroute traffic 
+accordingly.              
+o True 
+2. The Most-Used (MU) strategy assigns the least-used wavelengths first. 
+o False. The Most-Used (MU) strategy assigns the most-used wavelengths first. 
+1. What is the main issue caused by the speed-mismatch problem in WDM networks? 
+o A) Increased cost 
+o B) Bottlenecks in WDM electronic switches 
+o C) Reduced bandwidth 
+o D) Complex installation 
+2. Which routing strategy uses a predetermined set of alternate paths for routing? 
+o A) Adaptive Routing 
+o B) Fixed-Alternate Routing 
+o C) Fault-Tolerant Routing 
+o D) Fixed Routing 
+1. The speed-mismatch problem causes bottlenecks in WDM electronic switches. 
+o True 
+2. Fixed-Alternate Routing uses a predetermined set of alternate paths for routing. True 
+50 | Page 
+1. What does Optical Packet Switching (OPS) process without conversion to the electronic 
+domain? 
+o A) Electrical signals 
+o B) Packets (e.g., IP packets) 
+o C) Light signals 
+o D) Sound waves 
+2. What is required for the design of a truly OPS architecture? 
+o A) Electrical Memory and Computing 
+o B) Optical Memory and Computing 
+o C) Digital Memory and Processing 
+o D) Analog Memory and Processing 
+o Optical Packet Switching (OPS) processes packets in the optical domain without conversion to 
+the electronic domain.         True 
+2. The design of a truly OPS architecture requires advances in electrical memory and 
+computing. 
+o False. It requires advances in optical memory and computing. 
+1. What occurs at a switching node when two or more packets try to leave on the same output 
+port, wavelength, and time? 
+o A) Amplification 
+o B) Contention 
+o C) Conversion 
+o D) Multiplexing 
+2. What technique is used in electrical packet-switched networks to resolve contention? 
+o A) Store-and-forward technique 
+o B) Wavelength conversion 
+o C) Optical buffering 
+o D) Frequency division 
+1. Contention occurs when two or more packets try to leave the switch fabric on the same 
+output port, wavelength, and time.          True 
+2. In electrical packet-switched networks, contention is resolved with wavelength conversion. 
+o False. Contention is resolved with the store-and-forward technique. 
+ 
+51 | Page 
+1. What is used in optical packet switches to resolve contention due to the lack of optical RAM 
+technology? 
+o A) Store-and-forward technique 
+o B) Fiber Delay Lines (FDL) 
+o C) Digital buffers 
+o D) Frequency converters 
+2. What is another method used for contention resolution in optical packet switches? 
+o A) Store-and-forward technique 
+o B) Wavelength Converters (WC) 
+o C) Digital buffers 
+o D) Frequency converters 
+1. Fiber Delay Lines (FDL) are used in optical packet switches to resolve contention. 
+o True 
+2. Wavelength Converters (WC) are used in optical packet switches to resolve contention. 
+o True 
+1. What does OPS represent for network evolution? 
+o A) Short-term strategy 
+o B) Long-term strategy 
+o C) Temporary solution 
+o D) Immediate fix 
+2. What are the challenges in switching at the wavelength granularity in optical networks? 
+o A) Lack of digital memory and processing 
+o B) Lack of optical RAM and efficient logic devices for optical signal processing 
+o C) High cost and complexity 
+o D) Limited bandwidth 
+1. OPS represents a long-term strategy for network evolution. 
+o True 
+2. Switching at the wavelength granularity in optical networks is difficult due to the lack of 
+digital memory and processing. 
+o False. It is difficult due to the lack of optical RAM and efficient logic devices for optical 
+signal processing. 
+1. What is a key challenge in designing a truly OPS architecture? 
+o A) High cost of implementation 
+o B) Lack of optical RAM technology 
+o C) Limited bandwidth 
+o D) Compatibility with existing electronic networks 
+o  
+52 | Page 
+2. What is one of the methods used for contention resolution in optical packet switches? 
+o A) Store-and-forward technique 
+o B) Fiber Delay Lines (FDL) 
+o C) Digital buffers 
+o D) Frequency converters 
+1. The lack of optical RAM technology is a key challenge in designing a truly OPS architecture. 
+o True 
+2. Fiber Delay Lines (FDL) are used for contention resolution in optical packet switches. 
+o True 
+1. What does Optical Burst Switching (OBS) aim to avoid? 
+o A) High cost of implementation 
+o B) Key shortcomings of OCS and OPS 
+o C) Limited bandwidth 
+o D) Compatibility with existing electronic networks 
+2. What is the key idea behind OBS? 
+o A) Convert bursts to electronic signals for routing 
+o B) Direct bursts through an optical network without passing through electronics for 
+routing decisions 
+o C) Use digital buffers for burst assembly 
+o D) Increase the bandwidth of the fiber 
+1. OBS presents a compromise between OCS and OPS by avoiding some of their key 
+shortcomings.      
+o True 
+2. The key idea behind OBS is to convert bursts to electronic signals for routing decisions. 
+o False. The key idea is to direct bursts through an optical network without passing through 
+electronics for routing decisions. 
+1. What is burst assembly in OBS networks? 
+o A) The process of converting optical signals to electronic signals 
+o B) The procedure for aggregating data packets into bursts at the edge of an OBS network 
+o C) The method of amplifying optical signals 
+o D) The technique of splitting optical signals 
+2. Which burst assembly algorithm uses a fixed time period to assemble packets into a burst? 
+o A) Threshold-based 
+o B) Timer-based 
+o C) Mixed timer/threshold-based 
+o D) Random-based 
+53 | Page 
+1. Burst assembly is the procedure for aggregating data packets into bursts at the edge of an 
+OBS network. 
+o True 
+2. The threshold-based burst assembly algorithm uses a fixed time period to assemble packets 
+into a burst. 
+o False. The timer-based burst assembly algorithm uses a fixed time period. 
+1. What is a key consideration when setting the timeout value in a timer-based burst assembly 
+scheme? 
+o A) Balancing packet delay and control overhead 
+o B) Maximizing the number of packets in a burst 
+o C) Minimizing the burst length 
+o D) Reducing the number of bursts 
+2. What does the threshold specify in a threshold-based burst assembly scheme? 
+o A) The timeout value 
+o B) The number of packets to be aggregated or the burst length 
+o C) The control overhead 
+o D) The packet delay 
+1. In a timer-based burst assembly scheme, the timeout value should be set carefully to balance 
+packet delay and control overhead. 
+o True 
+2. In a threshold-based burst assembly scheme, the threshold specifies the timeout value. 
+o False. The threshold specifies the number of packets to be aggregated or the burst length. 
+1. What is the mixed timer/threshold-based burst assembly algorithm? 
+o A) Uses only a fixed time period to assemble packets 
+o B) Uses only a threshold to determine burst assembly 
+o C) Combines both timer and threshold parameters for burst assembly 
+o D) Uses random intervals for burst assembly 
+2. What happens if the timeout value in a timer-based burst assembly scheme is set too small? 
+o A) Packet delay at the edge becomes intolerable 
+o B) Too many small bursts are generated, resulting in higher control overhead 
+o C) Bursts are not generated at all 
+o D) The network bandwidth is reduced 
+1. The mixed timer/threshold-based burst assembly algorithm combines both timer and 
+threshold parameters for burst assembly. 
+o True 
+o  
+54 | Page 
+2. If the timeout value in a timer-based burst assembly scheme is set too small, it results in 
+intolerable packet delay. 
+o False. It results in too many small bursts being generated, leading to higher control 
+overhead. 
+1. What is the primary function of burst assembly in OBS networks? 
+o A) To amplify optical signals 
+o B) To aggregate data packets into bursts at the edge of the network 
+o C) To convert optical signals to electronic signals 
+o D) To split optical signals 
+2. Which burst assembly algorithm uses a threshold to determine when to generate a burst? 
+o A) Timer-based 
+o B) Threshold-based 
+o C) Mixed timer/threshold-based 
+o D) Random-based 
+1. Burst assembly in OBS networks aggregates data packets into bursts at the edge of the 
+network. 
+o True 
+2. The timer-based burst assembly algorithm uses a threshold to determine when to generate a 
+burst. 
+o False. The threshold-based burst assembly algorithm uses a threshold. 
+ 
+1. What is a potential drawback of timer-based burst assembly schemes? 
+o A) High cost 
+o B) Undesirable burst lengths 
+o C) Limited bandwidth 
+o D) Complex installation 
+2. What is a common scheduling technique used in burst scheduling? 
+o A) Random scheduling 
+o B) First Fit (FF) 
+o C) Least Used (LU) 
+o D) Most Used (MU) 
+1. Timer-based burst assembly schemes might result in undesirable burst lengths. 
+o True 
+2. First Fit (FF) is a common scheduling technique used in burst scheduling. 
+o True 
+ 
+55 | Page 
+1. What is the role of a burst-scheduling algorithm at an ingress node? 
+o A) Amplifying optical signals 
+o B) Adjusting the offset time for each burst 
+o C) Converting optical signals to electronic signals 
+o D) Splitting optical signals 
+2. Which of the following is a signaling protocol used in OBS? 
+o A) Store-and-forward 
+o B) Just Enough Time (JET) 
+o C) Fiber Delay Lines (FDL) 
+o D) Wavelength Converters (WC) 
+1. A burst-scheduling algorithm at an ingress node is responsible for adjusting the offset time 
+for each burst. 
+o True 
+2. Just Enough Time (JET) is a signaling protocol used in OBS. 
+o True 
+1. What does a signaling protocol in OBS do? 
+o A) Amplifies optical signals 
+o B) Provisions services by establishing, deleting, and modifying switching paths 
+o C) Converts optical signals to electronic signals 
+o D) Splits optical signals 
+2. Which of the following is NOT a typical signaling protocol in OBS? 
+o A) Just In Time (JIT) 
+o B) Tell and Wait (TAW) 
+o C) Store-and-forward (SAF) 
+o D) Just Enough Time (JET) 
+1. A signaling protocol in OBS provisions services by establishing, deleting, and modifying 
+switching paths. 
+o True 
+2. Store-and-forward (SAF) is a typical signaling protocol in OBS. 
+o False. Store-and-forward (SAF) is not a typical signaling protocol in OBS. 
+    Which OBS signaling protocol reserves resources just before a burst arrives? 
+     - A) Tell and Wait (TAW) 
+     - B) Just Enough Time (JET) 
+     - C) Just In Time (JIT) 
+     - D) Delay on Demand (DoD) 
+56 | Page 
+    What does OBS aim to balance between Optical Circuit Switching (OCS) and Optical Packet 
+Switching (OPS)? 
+     - A) Cost and complexity 
+     - B) Flexibility and efficiency 
+     - C) Speed and bandwidth 
+     - D) Compatibility with electronic devices 
+    One of the motivations for OBS is to overcome the limitations of Optical Packet Switching by 
+bypassing electronic components for routing.     True 
+    In an OBS network, which component is used to assemble data packets into bursts? 
+     - A) Fiber Splitter 
+     - B) Optical RAM 
+     - C) Burst Assembler 
+     - D) Control Packet Processor 
+    Burst assembly is the process of grouping multiple data packets at the edge of an OBS network before 
+sending them as a single burst.       True 
+    What is a key disadvantage of using a purely timer-based burst assembly technique? 
+     - A) High packet loss 
+     - B) Excessive burst delay 
+     - C) Unpredictable control overhead 
+     - D) Low bandwidth utilization 
+    A threshold-based assembly technique only begins forming a burst once a predefined number of 
+packets has been received.     True 
+    Which factor is optimized by using a mixed timer/threshold-based burst assembly approach? 
+     - A) Burst length consistency 
+     - B) Control packet overhead 
+   - C) Balance between delay and operational complexity 
+     - D) Wavelength allocation 
+     Which of the following is NOT a responsibility of the burst scheduling algorithm in OBS? 
+     - A) Adjusting burst offset time 
+     - B) Wavelength conversion 
+     - C) Scheduling bursts on output links 
+     - D) Forwarding bursts to the network 
+    Using a mixed timer/threshold-based scheme increases both delay control and operational complexity 
+in OBS networks.     True 
+57 | Page 
+    Burst scheduling algorithms such as First Fit (FF) are used in OBS to optimize the assignment of 
+bursts to network channels.     True 
+    What is the main purpose of a signaling protocol in OBS? 
+     - A) Assigning wavelengths to channels 
+     - B) Managing burst length 
+     - C) Establishing and modifying switching paths 
+     - D) Aggregating data packets 
+      C) Establishing and modifying switching paths 
+    In the OBS protocol Just Enough Time (JET), the control packet reserves network resources for the 
+burst just before it arrives.     True 
+    Which OBS signaling protocol waits for a confirmation at each network hop before sending the burst? 
+     - A) Just In Time (JIT) 
+     - B) Tell and Wait (TAW) 
+     - C) Just Enough Time (JET) 
+     - D) Delay-and-Reserve (DAR) 
+    What is one downside of using a mixed timer/threshold-based burst assembly method? 
+     - A) Reduced control over burst length 
+     - B) Increased operational complexity 
+     - C) Limited packet prioritization 
+     - D) Higher wavelength usage 
+    Which of the following is a common scheduling technique in OBS? 
+     - A) Most-Used (MU) 
+     - B) Least Delay Path 
+     - C) First Fit (FF) 
+     - D) Shortest Delay Path 
+    Burst scheduling involves setting offset times and forwarding bursts to the OBS network.      True 
+ Which OBS signaling protocol is characterized by reserving just enough time for a burst to reach its 
+destination? 
+     - A) Just In Time (JIT) 
+     - B) Just Enough Time (JET) 
+     - C) Tell and Wait (TAW) 
+     - D) Just-In-Case (JIC) 
+58 | Page 
+    The Tell and Wait (TAW) protocol requires the control packet to confirm each hop before the burst is 
+sent.     True 
+What is one of the primary challenges of switching at wavelength granularity in optical networks? 
+     - A) Low data transmission speed 
+     - B) Lack of an optical equivalent for RAM 
+     - C) High operational complexity 
+     - D) Limited wavelength channels 
+    OBS aims to address shortcomings of Optical Circuit Switching (OCS) and Optical Packet Switching 
+(OPS) by allowing bursts to pass through electronics at each routing decision.     False 
+    Which component is NOT part of the OBS burst assembly process? 
+     - A) IP packet 
+     - B) Fiber Delay Line 
+     - C) Timer-based algorithm 
+     - D) Threshold-based algorithm 
+    In OBS, data packets from multiple sources are aggregated into bursts at the network’s edge.     True 
+    A timer-based burst assembly method creates bursts based on: 
+     - A) Packet count threshold 
+     - B) Available bandwidth 
+     - C) Time elapsed since last burst 
+     - D) Packet size 
+    Threshold-based burst assembly relies on a specific packet count before initiating a burst.     True 
+    Which of the following is a benefit of using a mixed timer/threshold-based burst assembly scheme? 
+     - A) Reduces burst transmission time 
+     - B) Ensures fixed burst size 
+     - C) Balances delay control with burst length optimization 
+     - D) Simplifies operational complexity 
+    The mixed timer/threshold-based assembly method sacrifices delay control for operational simplicity.     
+False 
+59 | Page 
+    What is one of the primary responsibilities of a burst scheduling algorithm in OBS? 
+     - A) Assigning burst priorities 
+     - B) Adjusting offset times for bursts 
+     - C) Limiting burst length 
+     - D) Converting packets to electronic signals 
+Latest Available Unused Channel (LAUC) is a common technique used for scheduling bursts.     True 
+ 
+1. What is another name for the access network? 
+a) The backbone network 
+b) The core network 
+c) The first-mile network 
+d) The internet backbone 
+2. What do access networks connect? 
+a) Servers to routers 
+b) Service provider central offices (COs) to businesses and residential subscribers 
+c) Routers to other routers 
+d) Subscribers directly to the internet 
+3. Which of the following is NOT a term used to refer to access networks? 
+a) Last-mile network 
+b) Subscriber access network 
+c) Local loop 
+d) Core network 
+1. What does CO stand for in the context of access networks? 
+a) Company Office 
+b) Central Offices 
+c) Control Operator 
+d) Communication Outpost 
+True/False Questions: 
+1. The access network is also known as the "last-mile" network. True 
+2. Access networks connect subscribers directly to the internet backbone. False 
+3. COs connect businesses but not residential subscribers. False 
+4. The term "local loop" is sometimes used to describe the access network. True 
+ 
+1. What are subscribers demanding in first-mile access solutions? 
+o a) Low bandwidth and high prices 
+o b) High bandwidth, media-rich Internet services, and comparable prices 
+o c) Basic text-based services and high prices 
+o d) Limited bandwidth and low prices 
+60 | Page 
+ 
+2. What does LAN stand for in the context of corporate network demands? 
+o a) Local Area Node 
+o b) Large Area Network 
+o c) Local Area Network 
+o d) Land Access Network 
+1. Subscribers are looking for access solutions that are more expensive than existing networks. False 
+2. Corporate users want to connect their local-area networks (LANs) to the Internet backbone. True 
+1. What were DSL and CATV originally built for? 
+o a) Data transmission 
+o b) Carrying voice and analog TV signals, respectively 
+o c) Internet access 
+o d) Video conferencing 
+2. What is a limitation of DSL regarding distance? 
+o a) Subscribers must be within 180,000 feet of a central office 
+o b) There is no distance limitation 
+o c) Subscribers must be less than 18,000 feet from a central office 
+o d) Subscribers must be more than 18,000 feet from a central office 
+3. What does CATV stand for in the context of access networks? 
+o a) Cable Access Television Video 
+o b) Community Antenna Television 
+o c) Cable Advanced Television View 
+o d) Common Access Television View 
+1. DSL and CATV are optimal solutions for carrying data. False 
+          originally built for carrying voice and analog TV signals 
+2. DSL has a distance limitation due to signal distortions. True 
+3. CATV was originally designed for data transmission. False 
+1. DSL subscribers can be located at any distance from a central office. False 
+             must be less than 18000 feet because of signal distortions 
+2. What is a variation of DSL that has been introduced in the last decade? 
+o a) ADSL 
+o b) SDSL 
+o c) VDSL (very high bit-rate DSL) 
+o d) IDSL 
+3. What is the approximate downstream bandwidth supported by VDSL? 
+o a) 10 Mbps 
+o b) 25 Mbps 
+o c) 50 Mbps 
+61 | Page 
+4. What does VDSL stand for? 
+o a) Very Digital Subscriber Line 
+o b) Virtual Digital Subscriber Line 
+o c) Very high bit-rate Digital Subscriber Line 
+o d) Variable Digital Subscriber Line 
+1. VDSL has greater distance limitations than standard DSL. True 
+2. VDSL can support downstream bandwidth up to 100 Mbps. False 
+                                                                     up to 50 Mbps 
+3. VDSL is a relatively recent development in DSL technology. True 
+4. The maximum distance for VDSL support is 18,000 feet. False           1500 feet 
+1. How do CATV networks provide Internet services? 
+o a) Through fiber optic cables 
+o b) Through telephone lines 
+o c) By dedicating some Radio Frequency (RF) channels in co-axial cable for data 
+o d) Through satellite connections 
+2. What was the primary purpose for which CATV networks were built? 
+o a) Data transmission 
+o b) Delivering broadcast services 
+o c) Internet access 
+o d) Video conferencing 
+3. What happens to network performance in CATV networks under high load? 
+o a) It improves 
+o b) It remains the same 
+o c) It degrades 
+o d) It becomes more stable 
+4. What does RF stand for in the context of CATV networks? 
+o a) Radio Function 
+o b) Real Frequency 
+o c) Radio Frequency 
+o d) Remote Frequency 
+1. CATV networks are ideally suited for distributing access bandwidth. False 
+2. CATV networks use co-axial cable for data transmission. True 
+3. CATV networks were primarily designed for internet access. False 
+4. Network performance in CATV networks improves under high load. False.  
+Network performance in CATV networks degrades under high load. 
+5. CATV networks were primarily designed for internet access. False.  
+CATV networks were primarily designed for delivering broadcast services. 
+62 | Page 
+ 
+1. What is identified as a bottleneck for providing broadband services? 
+o a) The core network 
+o b) The internet backbone 
+o c) The access network 
+o d) The server infrastructure 
+2. What does ADSL2+ stand for? 
+o a) Advanced Digital Subscriber Line 2 Plus 
+o b) Advanced Digital System Line 2 Plus 
+o c) Asymmetric Digital Subscriber Line 2 Plus 
+o d) Asynchronous Digital Subscriber Line 2 Plus 
+True/False Questions: 
+1. Subscribers are content with low bandwidth for applications like video-on-demand. False.  
+  Subscribers demand high bandwidth for applications like video-on-demand. 
+2. Current DSL technologies provide sufficient bandwidth for all modern applications. False. 
+ Current DSL technologies can be a bottleneck for providing broadband services, as they may not provide 
+enough bandwidth for modern applications. 
+ 
+3. The access network is a limiting factor in providing broadband services. True 
+4. ADSL2+ offers symmetrical upstream and downstream bandwidth. False.  
+ADSL2+ offers asymmetrical bandwidth, with significantly higher downstream bandwidth than upstream 
+bandwidth. 
+ 
+ 
+1. What is desired for next-generation broadband applications? 
+o a) Slower access-network technologies 
+o b) Comparable access-network technologies 
+o c) Faster access-network technologies 
+o d) Existing access-network technologies 
+2. What is the basis for next-generation access networks mentioned in the text? 
+o a) DSL 
+o b) CATV 
+o c) Passive Optical Network (PON) 
+o d) Wireless networks 
+3. What does the FTTx model offer? 
+o a) Limited access bandwidth 
+o b) Moderate access bandwidth 
+o c) Unprecedented access bandwidth to end users 
+o d) Similar access bandwidth to existing technologies 
+ 
+ 
+63 | Page 
+4. What does PON stand for? 
+o a) Public Optical Node 
+o b) Passive Optical Network 
+o c) Private Optical Network 
+o d) Primary Optical Node 
+5. Which of the following is an example of an FTTx deployment? 
+o a) Fiber-to-the-office (FTTO) 
+o b) Fiber-to-the-Building (FTTB) 
+o c) FTTH (Fiber-to-the-Home) 
+o d) All of the above 
+True/False Questions: 
+1. Next-generation access networks are being developed based on PON. True 
+2. The FTTx model offers limited access bandwidth. False. 
+ The FTTx model offers unprecedented access bandwidth. 
+3. FTTx only refers to Fiber-to-the-Home (FTTH). False. 
+ FTTx encompasses several deployments, including Fiber-to-the-Home (FTTH), Fiber-to-the-Office 
+(FTTO), and Fiber-to-the-Building (FTTB), among others. 
+ 
+1. What type of topology is depicted for FTTH deployment? 
+o a) Bus topology 
+o b) Star topology 
+o c) Ring topology 
+o d) Point-to-Point (PtP) topology 
+2. In a PtP FTTH system, how is each subscriber connected to the central office? 
+o a) Through shared coaxial cable 
+o b) Through a wireless connection 
+o c) Through a dedicated fiber optic cable 
+o d) Through existing telephone lines 
+True/False Questions: 
+1. In a PtP FTTH deployment, bandwidth is shared among multiple subscribers. False. 
+ In a PtP FTTH deployment, each subscriber has a dedicated connection and bandwidth. 
+2. PtP FTTH offers high bandwidth capabilities. True. 
+3. PtP stands for Point-to-Network. False.  
+PtP stands for Point-to-Point. 
+ 
+1. If there are N subscribers in a PtP FTTH design, how many transceivers are required? 
+o a) N/2 
+o b) N 
+o c) 2N 
+o d) N² 
+64 | Page 
+2. If there are N subscribers at an average distance of L km from the central office, what is the total 
+fiber length required in a PtP design? 
+o a) N + L 
+o b) N/ L 
+o c) L/ N 
+o d) N × L 
+True/False Questions: 
+1. In a PtP design, the number of transceivers required is equal to the number of subscribers. False.  
+A PtP design requires 2N transceivers, where N is the number of subscribers. 
+2. The total fiber length in a PtP design is calculated by multiplying the number of subscribers (N) by 
+their average distance from the central office (L). True. 
+ 
+3. If there are 10 subscribers, a PtP design requires 5 transceivers. False.  
+If there are 10 subscribers, a PtP design requires 20 transceivers (2 * 10 = 20). 
+4. If there are 5 subscribers at an average distance of 2 km from the central office, the total fiber 
+length required is 7 km. False.  
+If there are 5 subscribers at an average distance of 2 km, the total fiber length is 10 km (5 * 2 = 10). 
+ 
+1. Where is the Curb Switch typically located? 
+o a) At the central office 
+o b) Closer to the subscribers, often in a neighborhood or on a street corner 
+o c) Inside each subscriber's home 
+o d) On a telephone pole 
+2. What is the role of the Curb Switch in this FTTH deployment? 
+o a) To provide wireless internet access 
+o b) To act as a central distribution point for fiber optic connections to multiple subscribers 
+o c) To convert optical signals to electrical signals 
+o d) Both b and c 
+3. What does CO stand for? 
+o a) Company Office 
+o b) Central Office 
+o c) Customer Outlet 
+True/False Questions: 
+1. In Curb Switch scenario, each subscriber has a dedicated fiber optic cable directly to the CO. 
+False. 
+ In this scenario, multiple subscribers share a fiber optic connection from the CO to the Curb  
+Switch, and then individual connections from the Curb Switch to each home. 
+2. The Curb Switch helps to reduce the amount of fiber optic cable needed directly from the CO. 
+True. 
+ 
+3. This deployment scenario is an example of a point-to-point (PtP) architecture. False. 
+65 | Page 
+ This scenario uses a point-to-multipoint architecture, facilitated by the Curb Switch. 
+4. The introduction of the Curb Switch increases the cost of deployment significantly compared to 
+the PtP model. False. 
+  
+While adding a Curb Switch has a cost, it generally reduces the overall cost of deployment, especially for 
+larger numbers of subscribers, by minimizing the amount of fiber directly from the CO. 
+ 
+ 
+1. In the curb-switched scenario, assuming negligible distance between the switch and customers, 
+how much fiber is consumed? 
+o a) 2L km 
+o b) N × L km 
+o c) L km 
+o d) N km 
+ 
+2. How many transceivers are required in this curb-switched design, where N is the number of 
+subscribers? 
+o a) N 
+o b) 2N 
+o c) 2N + 2 
+o d) N + 2 
+3. What additional requirement does the curb-switched network architecture have at the curb switch? 
+o a) A dedicated fiber optic connection to each subscriber 
+o b) A large cooling system 
+o c) Electrical power and back-up power 
+o d) A powerful router 
+4. What does L represent in the context of fiber consumption? 
+o a) The number of subscribers 
+o b) The number of transceivers 
+o c) The distance between the CO and the curb switch 
+o d) The total fiber length to each subscriber 
+True/False Questions: 
+1. The curb-switched architecture reduces the amount of fiber needed compared to the point-to-point 
+architecture. True. 
+ 
+2. In the curb-switched scenario, the number of transceivers is the same as in the point-to-point 
+scenario (2N). False. 
+ The curb-switched scenario requires 2N + 2 transceivers, two more than the point-to-point scenario. 
+ 
+3. The curb switch does not require any electrical power. False.  
+The curb switch requires electrical power as well as back-up power. 
+ 
+66 | Page 
+1. What is the function of the Passive Optical Splitter? 
+o a) To amplify the optical signal 
+o b) To convert optical signals to electrical signals 
+o c) To split the optical signal from the CO into multiple signals for different subscribers 
+o d) To manage network traffic 
+2. In Passive Optical Splitter scenario, how many fibers typically run from the CO to the splitter? 
+o a) N  
+o b) 2N 
+o c) One 
+o d) N + 1 
+3. What is the primary advantage of using a Passive Optical Splitter in FTTH deployments? 
+o a) Increased bandwidth per user 
+o b) Reduced signal loss 
+o c) Reduced fiber deployment costs 
+o d) Increased security 
+ 
+1. The Passive Optical Splitter requires electrical power. False. 
+ The splitter is passive and does not require any electrical power. 
+2. The introduction of the optical splitter reduces the number of transceivers required compared to the 
+curb-switch scenario. True.  
+ 
+ 
+1. What type of network is PON? 
+o a) Point-to-point (PtP) 
+o b) Point-to-multipoint (PtMP) 
+o c) Mesh 
+o d) Ring 
+2. What does PON minimize? 
+o a) Network speed 
+o b) Bandwidth 
+o c) Optical transceivers, CO terminations, and fiber deployment 
+o d) Signal loss 
+3. How many transceivers are required in this PON design, where N is the number of subscribers? 
+o a) 2N 
+o b) N 
+o c) N + 1 
+o d) 2N + 2 
+4. How much fiber is required in this PON design, where L is the distance from the CO to the splitter? 
+o a) N * L 
+o b) 2L 
+o c) N + L 
+o d) L 
+ 
+67 | Page 
+True/False Questions: 
+1. PON uses active elements in the signal path from source to destination. False. 
+ PON has no active elements in the signal path. 
+2. PON is a cost-effective solution for FTTH deployments. True.  
+3. In a PON design with 10 subscribers, 20 transceivers are required. False. 
+ In a PON design with 10 subscribers, 11 transceivers are required (10 + 1 = 11). 
+ 
+1. What device does a PON employ to split and combine optical signals? 
+o a) Repeaters 
+o b) Amplifiers 
+o c) Couplers (passive device) 
+o d) Switches 
+2. What is the function of an optical coupler in a PON? 
+o a) To amplify the optical signal 
+o b) To convert optical signals to electrical signals 
+o c) To split an optical signal from one fiber into several fibers and combine optical 
+signals from multiple fibers into one. 
+o d) To regenerate the optical signal 
+3. What does an optical coupler consist of? 
+o a) Several lenses and prisms 
+o b) Electronic circuits 
+o c) Two fibers fused together 
+o d) A mirror and a prism 
+4. What happens to the signal power received on any input port of an optical coupler? 
+o a) It is amplified 
+o b) It is blocked 
+o c) It is split between both output ports 
+o d) It is converted to an electrical signal 
+True/False Questions: 
+1. A PON employs active devices to split optical signals. False.  
+A PON employs passive devices called couplers to split optical signals. 
+2. An optical coupler can both split and combine optical signals. True. 
+3. An optical coupler is made of electronic components. False.  
+An optical coupler consists of two fibers fused together. 
+4. When signal power is received on an input port of an optical coupler, all the power is directed to 
+only one output port. False.  
+Signal power received on any input port is split between both output ports. 
+ 
+ 
+ 
+68 | Page 
+1. What does ONU stand for? 
+o a) Optical Network User 
+o b) Optical Network Unit 
+o c) Optical Node Unit 
+2. What does OLT stand for? 
+o a) Optical Line User 
+o b) Optical Line Terminal 
+o c) Optical Link Terminal 
+o d) Optical Local Terminal 
+1. In a bus topology, a break in the fiber can affect all connected ONUs. True. 
+2. A tree topology has a single point of failure at the root (OLT). True.  
+If the OLT fails, all connected ONUs lose service. 
+3. In a ring topology, the signal travels in a straight line. False. 
+ In a ring topology, the signal travels in a circular fashion. 
+4. All PON topologies require active devices at each ONU. False. 
+ PONs use passive splitters, so there are no active devices between the OLT and the ONUs in the optical 
+distribution network. 
+ 
+1. Where do all transmissions in a PON occur? 
+o a) Between ONUs 
+o b) Between COs 
+o c) Between an Optical Line Terminal (OLT) and Optical Network Units (ONUs) 
+o d) Between routers 
+2. Where is the OLT located? 
+o a) At the end-user location 
+o b) At the curb 
+o c) In the Central Office (CO) 
+o d) In the metropolitan area 
+3. What does the OLT connect the optical access network to? 
+o a) Individual ONUs only 
+o b) Other access networks 
+o c) The metropolitan-area network (MAN), backbone, or long-haul network 
+o d) Local area networks (LANs) 
+4. Where can the ONU be located? 
+o a) At the end-user location (FTTH and FTTB) 
+o b) At the curb (FTTC) 
+o c) Both a and b 
+o d) Only at the CO 
+5. What does MAN stand for? 
+o a) Main Area Network 
+o b) Metropolitan-Area Network 
+69 | Page 
+o c) Municipal Area Network 
+o d) Medium Area Network 
+1. Transmissions in a PON occur between ONUs. False. 
+ Transmissions in a PON occur between an OLT and ONUs. 
+2. The OLT connects the access network to larger networks like MANs and backbone networks.  
+True. 
+3. The ONU is always located at the end-user's home. False.  
+The ONU can be located at the end-user location (FTTH and FTTB) or at the curb (FTTC). 
+4. FTTC stands for Fiber-to-the-Home. False.  
+FTTC stands for Fiber-to-the-Curb. FTTH stands for Fiber-to-the-Home. FTTB stands for Fiber-to-the
+Building. 
+1. What does PON minimize in both the CO and the local loop? 
+o a) Network traffic 
+o b) Signal loss 
+o c) Fiber deployment 
+o d) Equipment costs at the customer premises 
+1. PONs allow for short reach distances between the CO and customer premises. False. 
+ PONs allow for long reach distances, up to 20 km. 
+2. PONs minimize fiber deployment. True. 
+3. PONs provide lower bandwidth compared to other technologies. False. 
+ PONs provide higher bandwidth, offering Gbps solutions. 
+4. PONs operate as a unicast network in the downstream direction. False. 
+ PONs operate as a broadcast network in the downstream direction. 
